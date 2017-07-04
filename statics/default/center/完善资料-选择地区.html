@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/ui-box.css">
+    <link rel="stylesheet" href="../css/ui-base.css">
+    <link rel="stylesheet" href="../css/ui-color.css">
+    <link rel="stylesheet" href="../css/appcan.control.css">
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/center.css">
+    <title>股权帮个人中心 完善资料-选择地区</title>
+</head>
+<body class="um-vp" style="background: #f4f4f4;">
+<!--头部-->
+<div class="ub ub-ac header">
+    <a href="#" class="ub ub-ac headerLeft"><em class="iconfont icon-jiantouzuo"></em></a>
+    <div class="ub ub-pc ub-f1 headerMid"><span>选择地区</span></div>
+    <a href="#" class="ub ub-ac headerRig"><em class="iconfont icon-6"></em></a>
+</div>
+<!--头部-->
+<!-- c -->
+<div class="cBox"> 
+    <!-- 选择地区 -->
+    <div class="area_bgBox ub" id="area_bg">
+        <div class="ub area ub-ver ub-f1 umar-a">
+            <div class="info ub-ver">
+              <ul>
+                <li class="ub ub-f1 ubb ubb-d">
+                  <select id="s_province" name="s_province">
+                    <option>湖北省</option>
+                  </select>
+                </li>
+                <li class="ub ub-f1 ubb ubb-d">
+                  <select id="s_city" name="s_city" >
+                    <option>武汉市</option>
+                  </select>
+                </li>
+              </ul>
+              
+              <div id="show"></div>
+            </div>
+            <a class="sure" id="sure" href="javascript:;">确定</a>
+        </div>
+    </div>
+    <!-- /选择地区 -->
+</div>
+<!-- /c -->
+</body>
+<script type="text/javascript" src="../js/jquery-1.8.3.min.js"></script>
+<script class="resources library" src="../js/area.js" type="text/javascript"></script> 
+<script type="text/javascript">_init_area();</script>
+<script type="text/javascript">
+    var Gid  = document.getElementById ;
+    var showArea = function(){
+        Gid('show').innerHTML = "<h3>省" + Gid('s_province').value + "市" +   
+        Gid('s_city').value + "县/区"
+                                }
+    Gid('s_county').setAttribute('onchange','showArea()');
+</script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      $(".xz_area").click(function(){
+          $(".area_bg").fadeIn();   
+        });
+        $("#sure").click(function(){
+          var sheng=$('#s_province').val();
+          var shi=$('#s_city').val();
+          var qu=$('#s_county').val();
+          //$('#xz_area').text(sheng+' '+shi+' ');
+          //$(".area_bg").fadeOut();  
+        });
+    });
+</script>
+
+</html>

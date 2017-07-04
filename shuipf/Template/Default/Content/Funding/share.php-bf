@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="/statics/default/css/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="/statics/default/css/public.css">
+    <link rel="stylesheet" href="/statics/default/css/ui-box.css">
+    <link rel="stylesheet" href="/statics/default/css/ui-base.css">
+    <link rel="stylesheet" href="/statics/default/css/ui-color.css">
+    <link rel="stylesheet" href="/statics/default/css/appcan.control.css">
+    <link rel="stylesheet" href="/statics/default/css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="/statics/default/css/swiper.min.css">
+    <link rel="stylesheet" href="/statics/default/css/service.css">
+    <style>
+.box{
+    width:50%; margin-top:10%; margin:auto; padding:28px;
+    height:350px; border:1px #111 solid;
+    display:none;            /* 默认对话框隐藏 */
+}
+.box.show{display:block;} 
+.box .x{ font-size:18px; text-align:right; display:block;}
+.box input{width:80%; font-size:18px; margin-top:18px;}
+</style>
+    <title>股权帮个人中心 社员服务-直播路演（表单）</title>
+</head>
+<body class="um-vp" style="background: #f4f4f4;">
+
+<!-- c -->
+
+<p>股权帮，每一次虽然是第一次，但每个第一次都将引燃改变<input type='radio' name='shareword' value='股权帮，每一次虽然是第一次，但每个第一次都将引燃改变' class="shareOne" checked="checked" >
+</p><br>
+<p>敢想，敢拼，敢为，前行路上，城市与你同行，探索未知，发现一切不可能！<input type='radio' name='shareword' value='敢想，敢拼，敢为，前行路上，城市与你同行，探索未知，发现一切不可能！' class="shareOne" >
+</p><br>
+<p><div id=diyword1>自己说点什么</div><input type='radio' id='diyword2' name='shareword' value='自己说点什么' onclick="msgbox(1)">
+</p><!-- /c -->
+<div><img src={$data['userinfo']['userimg']} width="38px" height="38px"></div>
+<div>{$data['userinfo']['truename']}的众筹</div>
+<div>{$data['start_time']}前发起</div>
+<?php if($data['fundinfo']['status']==0)
+      {
+          echo '进行中';
+      }elseif($data['fundinfo']['status']==1)
+      { 
+          echo '已完成';
+      }else
+      {
+          echo '已过期';
+      }
+     
+?>
+<!-- 支持人数 -->
+<div>支持人数:{$data.count} </div>
+<!-- 完成进度 -->
+<div> {$data['fundinfo']['total_price']*100/$data['fundinfo']['price']}%</div>
+<!-- 还差金额 -->
+<div>{$data['fundinfo']['price']-$data['fundinfo']['total_price']} 元</div>
+
+<!-- 课程信息 -->
+<div>
+<ul>
+<!-- 课程标题 -->
+<li><img src="http://m.guquanbang.com{$data['courseinfo']['thumb']}" width="80px" heigth="60px"></li>
+<li>{$data['courseinfo']['title']}</li>
+<!-- 课程描述 -->
+<li>{$data['courseinfo']['description']}</li>
+<!-- 课程价格 -->
+<li>{$data['courseinfo']['price']}</li>
+</ul>
+</div>
+
+
+<!-- 回复S -->
+<div>已有{$data.count}支持</div>
+<ul>
+<volist name="data['replay']" id='vo'>
+ <li><img src="{$vo['userimg']}" width="38px" height="38px">{$vo['truename']}</li>
+ <li><?php echo getTime($vo['msg_time'])?>前</li>
+ <li>{$vo['message']}</li>
+ <?php if($vo['reply']) { ?>
+    {$vo['reply']}
+ <?php }else{?>
+    <a href="javascript('0')">回复</a>
+ <?php } ?>
+ <li>支持金额:{$vo['money']}</li>
+</volist>
+</ul>
+<!-- 回复E -->
+<!--弹出层-->
+
+<!--/弹出层-->
+
+<!-- jQuery 遮罩层 -->
+<div id='inputbox' class="box">
+        <a class='x' href=''; onclick="msgbox(0); return false;">关闭</a>
+        <input type="text" value="" name='share' id="shareDiy">
+        <input type="button" value="确定" onclick="saveword()">
+</div>
+<script>  
+function msgbox(n){
+            document.getElementById('inputbox').style.display=n?'block':'none';     /* 点击按钮打开/关闭 对话框 */
+}
+</script> 
+<script> 
+function saveword()
+{
+	var data = new Object();
+	data['shareword'] = $('#shareDiy').val();
+	data['id'] = $('#id').val();
+	if(data['share'] != '自己说点什么'){
+        	$.ajax({
+                Type:'POST',
+                dataType:'json',
+                data:data,
+                url:'/index.php/content/funding/ajaxSaveShare/',
+                success : function(msg){
+                       if(msg==1)
+                           {
+                               $('#diyword1').html(data['shareword']);
+                               $('#diyword2').val(data['shareword']);   
+                              
+                           }                    
+                    }
+               });   
+    }
+}
+</script>  
+<!-- end jQuery 遮罩层 -->
+<input type="hidden" value="{$fundinfo.share}" id="share">
+<input type="hidden" value="{$fundinfo.id}" id="id">
+</body>
+<script type="text/javascript" src="/statics/default/js/jquery.js"></script>
+<script type="text/javascript" src="/statics/default/js/swiper.min.js"></script>
+<script src="/statics/default/js/ff.js" type="text/javascript"></script>
+<script type="text/javascript">
+window.onload=function(){
+	//获取分享语句
+	var word = $('#share').val();
+	$("input:radio[value="+word+"]").attr('checked','true');
+}
+
+//如果radio事件变动，则将改动的值传入到数据库
+$(function(){
+	$(".shareOne").click(function(){
+		  var data = new Object()
+		  data['id'] = $('#id').val();
+          data['shareword'] = $('input:radio:checked').val();
+          //将获取的值ajax传入到数据库中
+          $.ajax({
+               Type:'POST',
+               dataType:'json',
+               data:data,
+               url:'/index.php/content/funding/ajaxSaveShare/',
+               success : function(msg){
+                      alert(msg);                    
+                   }
+              });
+		});
+})
+
+</script>
+</html>

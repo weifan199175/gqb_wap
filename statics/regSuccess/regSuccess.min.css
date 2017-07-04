@@ -1,0 +1,72 @@
+.successTitle p:after, .successTitle p:before {
+	font-family: myiconfont
+}
+
+html {
+	background: #f4f4f4
+}
+
+.regSuccessList li, .successTitle {
+	background: #fff;
+	text-align: center
+}
+
+body {
+	margin-bottom: 2.666667rem
+}
+
+.successTitle {
+	font-size: .666667rem !important;
+	color: #f23439;
+	padding: .4rem
+}
+
+.successTitle p:before {
+	content: "\e7d4"
+}
+
+.successTitle p:after {
+	content: "\e7d5"
+}
+
+.msgPic img {
+	width: 100%
+}
+
+.regSuccessList li {
+	padding: .4rem 0;
+	margin-bottom: .266667rem
+}
+
+.regSuccessList li .successMsg {
+	font-size: .4rem;
+	margin-bottom: .266667rem
+}
+
+.regSuccessList li .btn a {
+	display: block;
+	background: #E30B20;
+	width: 6.533333rem;
+	height: 1.2rem;
+	text-align: center;
+	line-height: 1.2rem;
+	color: #fff;
+	border-radius: .133333rem;
+	margin: .4rem auto 0
+}
+
+.processPic, .processPic img {
+	height: 100%;
+	width: 100%;
+}
+
+.processPic {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	display: none
+}

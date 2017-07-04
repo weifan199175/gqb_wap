@@ -1,0 +1,147 @@
+﻿<!DOCTYPE html>
+<html class="um landscape min-width-240px min-width-320px min-width-480px min-width-768px min-width-1024px">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/ui-box.css">
+    <link rel="stylesheet" href="../css/ui-base.css">
+    <link rel="stylesheet" href="../css/ui-color.css">
+    <link rel="stylesheet" href="../css/appcan.control.css">
+    <link rel="stylesheet" href="../css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="../css/center.css">
+    <title>股权帮个人中心 我的-积分明细</title>
+    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../js/date.js" ></script>
+    <script type="text/javascript" src="../js/iscroll.js" ></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#beginTime').date();
+            $('#endTime').date({theme:"1"});
+        });
+    </script>
+
+</head>
+<body class="um-vp" style="background:#f4f4f4;">
+<!--头部-->
+<div class="ub ub-ac header">
+    <a href="#" class="ub ub-ac headerLeft"><em class="iconfont icon-jiantouzuo"></em></a>
+    <div class="ub ub-pc ub-f1 headerMid"><span>我的积分</span></div>
+    <a href="#" class="ub ub-ac headerRig"><em class="iconfont icon-6"></em></a>
+</div>
+<!--头部-->
+<!-- c --> 
+<div class="cBox" style="background:#f4f4f4;">
+    <!-- 我的积分 -->
+    <div class="ub ub-ver mySoreBox">       
+        <div class="mySore ub ub-ver tx-cf">
+            <div class="ub">
+                <div class="tt ub ub-pc">当前积分为：</div>
+                <div class="number ub ub-ver ub-f1 ub-ac ub-pc">
+                    <em class="nm ub ub-ac ub-pc"><i>3680</i></em>                    
+                </div>
+                <div class="rules ub"><span class="ub iconfont icon-icontishiwenhao"></span><a class="ub tx-cf" href="#">积分规则</a></div>
+            </div>
+            <div class="scr ub ub-pc ub-ac">累计积分为：<i>12000</i></div>
+        </div>
+        <div class="scoreClass ub ubb ubb-d">
+            <div class="tit current ub ub-f1 ub-ac ub-pc"><a class="ub ub-ac ub-pc" href="#">积分明细</a></div>
+            <div class="tit ub ub-f1 ub-ac ub-pc"><a class="ub ub-ac ub-pc" href="#">我的任务</a></div>
+            <div class="tit ub ub-f1 ub-ac ub-pc"><a class="ub ub-ac ub-pc" href="#">积分排行</a></div>
+        </div> 
+        <div class="List">
+            <div class="timeChose uba ub ub-f1 ubb-d bgc umar-b uinn5">
+                <input id="beginTime" class="kbtn ub ub-f1 uba ubb-d" placeholder="开始时间" />
+                <input id="endTime" class="kbtn ub ub-f1 uba ubb-d" placeholder="结束时间" />
+                <div class="searchBT ub ub-ac ub-pc">搜索</div> 
+            </div>
+            <div id="datePlugin"></div> 
+
+            <ul class="ub ub-ver">
+                <li class="bgc ubb ubt ubb-d">
+                    <div class="title ub ubb ubb-d uinn">
+                        <span class="ub tx-red ulev1 iconfont icon-dian"></span>
+                        <b class="ub ub-ac tx-c2 ulev0">2016年9月</b>
+                    </div>
+                    <div class="con ub ubb ubb-d">
+                        <div class="left ub ub-ver">
+                            <h5 class="ub">股权博弈课程</h5>
+                            <div class="info ub tx-c8">
+                                <div class="name ub">詹长春</div>  
+                                <div class="level ub">铁杆社员</div>  
+                                <div class="time ub">09-22</div>
+                            </div>
+                        </div>
+                        <div class="right ub ub-ver ub-f1">
+                            <div class="money ub ub-pe">
+                                <b class="tx-cgn">+1900.00</b>
+                            </div>
+                            <div class="tt ub tx-c8 ub-pe">一级奖励</div>
+                        </div>
+                    </div>
+                    <div class="con ub">
+                        <div class="left ub ub-ver">
+                            <h5 class="ub">股权博弈课程</h5>
+                            <div class="info ub tx-c8">
+                                <div class="name ub">詹长春</div>  
+                                <div class="level ub">普通社员</div>  
+                                <div class="time ub">09-22</div>
+                            </div>
+                        </div>
+                        <div class="right ub ub-ver ub-f1">
+                            <div class="money ub ub-pe">
+                                <b class="tx-red">-1900.00</b>
+                            </div>
+                            <div class="tt ub tx-c8 ub-pe">兑换消费</div>
+                        </div>
+                    </div>
+                </li>
+                <li class="bgc ubb ubt ubb-d">
+                    <div class="title ub ubb ubb-d uinn">
+                        <span class="ub tx-red ulev1 iconfont icon-dian"></span>
+                        <b class="ub ub-ac tx-c2 ulev0">2016年8月</b>
+                    </div>
+                    <div class="con ub ubb ubb-d">
+                        <div class="left ub ub-ver">
+                            <h5 class="ub">股权博弈课程</h5>
+                            <div class="info ub tx-c8">
+                                <div class="name ub">詹长春</div>  
+                                <div class="level ub">铁杆社员</div>  
+                                <div class="time ub">09-22</div>
+                            </div>
+                        </div>
+                        <div class="right ub ub-ver ub-f1">
+                            <div class="money ub ub-pe">
+                                <b class="tx-cgn">+1900.00</b>
+                            </div>
+                            <div class="tt ub tx-c8 ub-pe">二级奖励</div>
+                        </div>
+                    </div>
+                    <div class="con ub">
+                        <div class="left ub ub-ver">
+                            <h5 class="ub">股权博弈课程</h5>
+                            <div class="info ub tx-c8">
+                                <div class="name ub">詹长春</div>  
+                                <div class="level ub">普通社员</div>  
+                                <div class="time ub">09-22</div>
+                            </div>
+                        </div>
+                        <div class="right ub ub-ver ub-f1">
+                            <div class="money ub ub-pe">
+                                <b class="tx-cgn">+1900.00</b>
+                            </div>
+                            <div class="tt ub tx-c8 ub-pe">一级奖励</div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <a class="checkMore ub ub-ac ub-pc uinn ulev-1 tx-c8" href="#">点击查看更多>></a>
+        </div>              
+    </div>
+    <!-- /我的积分 -->
+</div>
+<!-- /c -->
+</body>
+
+
+</html>

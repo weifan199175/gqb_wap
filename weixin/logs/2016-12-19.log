@@ -1,0 +1,12 @@
+[2016-12-19 08:33:05][debug] string:appid=wxf53ced15df6d9c63&attach=1&body=股权帮&mch_id=1325297401&nonce_str=9bsgqb1r00rw95uzym2a5hmn9juzc2vr&notify_url=http://cs.bogleunion.com/api.php/PayNotify/webchatpay_notify.html&openid=oBZpmxOL3Q__xeCMlRP8MYaV4aD4&out_trade_no=2016121949544949&spbill_create_ip=101.226.125.122&time_expire=20161219084305&time_start=20161219083305&total_fee=2000000&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-12-19 08:33:05][debug] key:bogleunionL18899765853bogleunion
+[2016-12-19 08:33:06][debug] string:appid=wxf53ced15df6d9c63&mch_id=1325297401&nonce_str=W5570qxdMHl5gUuE&prepay_id=wx20161219083306ac52f00ed40582596120&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-12-19 08:33:06][debug] key:bogleunionL18899765853bogleunion
+[2016-12-19 08:33:06][debug] string:appId=wxf53ced15df6d9c63&nonceStr=cyvv0xsvzmuvwtb4u6he15v2cdfamp2g&package=prepay_id=wx20161219083306ac52f00ed40582596120&signType=MD5&timeStamp=1482107586&key=bogleunionL18899765853bogleunion
+[2016-12-19 08:33:06][debug] key:bogleunionL18899765853bogleunion
+[2016-12-19 11:32:31][debug] string:appid=wxf53ced15df6d9c63&attach=1&body=股权帮&mch_id=1325297401&nonce_str=8kkk38qd3l0ined5fb7f7qk49h92pl8b&notify_url=http://cs.bogleunion.com/api.php/PayNotify/webchatpay_notify.html&openid=oBZpmxKm8buIRbZVIyWla59XmU1k&out_trade_no=2016121910250539&spbill_create_ip=183.222.61.92&time_expire=20161219114231&time_start=20161219113231&total_fee=2000000&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-12-19 11:32:31][debug] key:bogleunionL18899765853bogleunion
+[2016-12-19 11:32:36][debug] string:appid=wxf53ced15df6d9c63&mch_id=1325297401&nonce_str=2FcssSN8ZmkDfFdz&prepay_id=wx201612191132368a22ff0ca50679519043&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-12-19 11:32:36][debug] key:bogleunionL18899765853bogleunion
+[2016-12-19 11:32:36][debug] string:appId=wxf53ced15df6d9c63&nonceStr=dsnazyp2h4uqdo1r4ax951pu5movd9p8&package=prepay_id=wx201612191132368a22ff0ca50679519043&signType=MD5&timeStamp=1482118356&key=bogleunionL18899765853bogleunion
+[2016-12-19 11:32:36][debug] key:bogleunionL18899765853bogleunion

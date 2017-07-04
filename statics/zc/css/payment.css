@@ -1,0 +1,111 @@
+html{
+	background: #f4f4f4;
+}
+body{
+	margin-bottom: 2.666667rem;
+}
+.peopleInfo{
+	background: #fff;
+	padding: 0.266667rem;
+	margin-bottom: 0.266667rem;
+}
+.peopleInfo .payTitle{
+	font-size: 0.453333rem;
+	padding-bottom: 0.133333rem;
+	border-bottom: 1px solid #ddd;
+}
+.peopleInfo .payName,.peopleInfo .payMsg,.peopleInfo .payMoney{
+	margin: 0.266667rem 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.peopleInfo div div{
+	font-size: 0.4rem;
+	width: 2.666667rem;
+}
+.peopleInfo input{
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+	font-size: 0.4rem;
+}
+.peopleInfo .error{
+	color: #c00;
+	font-size: 0.373333rem;
+	margin-left: 2.133333rem;
+}
+.peopleInfo .moneyBtn{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+}
+.peopleInfo .moneyBtn div{
+	text-align: center;
+	border: 1px solid #ddd;
+	margin: 0.266667rem;
+	height: 0.8rem;
+	line-height: 0.8rem;
+	border-radius: 0.133333rem;
+	color: #e60012;
+	font-size: 0.373333rem;
+}
+
+/*支付方式*/
+.payMode{
+	background: #fff;
+	padding:0.266667rem;
+}
+.payMode>div{
+	position: relative;
+	border-bottom: 1px solid #ddd;
+	padding: 0.133333rem 0;
+}
+.payMode .choose{
+	color: #26AB28;
+	font-size: 0.533333rem;
+	position: absolute;
+	right: 0.266667rem;
+	top:0.24rem;
+	display: none;
+}
+.payMode .zfbIcon,.payMode .wxIcon{
+	font-size: 0.8rem;
+}
+.payMode .zfb .zfbIcon{
+	color: #2E9DD0;
+	vertical-align: middle;
+	margin-right: 0.266667rem;
+}
+.payMode .wx .wxIcon{
+	color: #26AB28;
+	vertical-align: middle;
+	margin-right: 0.266667rem;
+}
+/*付款按钮*/
+.btnDiv{
+	background: #fff;
+	padding: 0.266667rem 0;
+}
+.payBtn{
+	background: #e60012;
+	width: 9.333333rem;
+	height: 1.2rem;
+	line-height: 1.2rem;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 0.4rem;
+	text-align: center;
+	margin: 0 auto;
+}

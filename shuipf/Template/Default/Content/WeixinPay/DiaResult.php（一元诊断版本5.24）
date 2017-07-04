@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>诊断结果页</title>
+    <meta charset="UTF-8">
+    <!--     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no"> -->
+    <meta http-equiv=”X-UA-Compatible” content=”IE=edge,chrome=1″/>
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <script type="text/javascript" src="/statics/default/js/fastclick.min.js"></script>
+    <script src="https://cdn.bootcss.com/velocity/1.5.0/velocity.min.js"></script>
+    <script src="/statics/default/js/diagnosisSuccess.min.js"></script>
+    <link rel="stylesheet" href="/statics/default/css/public.css">
+    <link rel="stylesheet" href="/statics/default/css/ui-box.css">
+    <link rel="stylesheet" href="/statics/default/css/ui-base.css">
+    <link rel="stylesheet" href="/statics/default/css/ui-color.css">
+    <link rel="stylesheet" href="/statics/default/css/appcan.control.css">
+    <link rel="stylesheet" href="/statics/default/css/iconfont/iconfont.css">
+    <link rel="stylesheet" href="/statics/default/css/index.css">
+    <link rel="stylesheet" href="/statics/zc/css/reset.min.css">
+    <link rel="stylesheet" href="/statics/zc/css/common.min.css">
+    <link rel="stylesheet" href="/statics/default/css/resultPage.min.css">
+</head>
+<script>
+$(function() {
+    FastClick.attach(document.body);
+})
+</script>
+
+<body>
+    <!-- 成功页面 -->
+    <div class="resultPage">
+        <div class="loginBg"></div>
+        <div class="login">
+            <img src="/statics/default/images/loginBg.png" alt="">
+            <a href="/index.php/content/user/login/type/zdq">
+                <img src="/statics/default/images/goLogin.png" alt="">
+            </a>
+        </div>
+        <div class="fxDiv">
+            <img src="/statics/default/images/fx.png" alt="">
+            <a href="/index.php/content/diacrisisTool/diacrisis_success/style/{$dia_res.style}/id/{$dia_res.id}" class="closeBtn">
+                  <img src="/statics/default/images/closeBtn.png" alt="">
+            </a>
+        </div>
+        
+        <p class="resultTxt">您的企业股权架构评分为：</p>
+        <div class="resultNum">{$dia_res.score}分</div>
+        <ul class="starts">
+            <li>
+                <i class="myiconfont">&#xe6b9;</i>
+            </li>
+            <li>
+                <i class="myiconfont">&#xe6b9;</i>
+            </li>
+            <li>
+                <i class="myiconfont">&#xe6b9;</i>
+            </li>
+            <li>
+                <i class="myiconfont">&#xe6b9;</i>
+            </li>
+            <li>
+                <i class="myiconfont">&#xe6b9;</i>
+            </li>
+            <li>
+                <i class="myiconfont">&#xe6b9;</i>
+            </li>
+            <li>
+                <i class="myiconfont">&#xe6b9;</i>
+            </li>
+        </ul>
+        <div class="people"></div>
+        <div class="kind"></div>
+        <div class="resultPic">
+            <img src="/statics/default/images/LOGO.png" alt="">
+        </div>
+        <?php if($dia_res['status'] == '0'){ ?>
+        <div id ='html'>
+        <div class="rewardBtn payBtn">
+            <a href="javascript:void(0)" onclick="checklogin()">打赏</a>
+        </div>
+        </div>
+        <?php }else if($dia_res['status'] == '1'){ ?>
+        <div id ='html'>
+        <div class="rewardBtn payBtn">
+            <a href="javascript:void(0)" onclick="share()">分享并查看结果</a>
+        </div>
+        <div class="rewardBtn payBtn">
+            <a href="/index.php/content/diacrisisTool/diagnosis" >重新测试</a>
+        </div>
+        </div>
+        <?php } ?>
+        <p class="resultBottom">登录可保存结果，打赏一元即可获得您企业的详细报告</p>
+        <div class="payDiv">
+            <a class="wxPay" href="javascript:void(0)" onclick="weixin()">
+                <i class="myiconfont">&#xe606;</i> 微信支付
+            </a>
+            <a class="aliPay" href="javascript:void(0)" onclick="zhifubao()">
+                <i class="myiconfont">&#xe63d;</i> 支付宝支付
+            </a>
+        </div>
+    </div>
+<input type='hidden' value='{$dia_res["id"]}' id='id'>
+<input type='hidden' value='{$userid}' id='userid'>
+<input type='hidden' value='{$dia_res["member_id"]}' id='member_id'>
+<input type='hidden' value='{$dia_res["status"]}' id='status'>
+<input type='hidden' value='{$invitation_code}' id='invtitation_code'>
+<input type="hidden" value="{$signature}" id="signature" />
+</body>
+<!--微信分享-->
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>  
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script> 
+<script type="text/javascript">
+var H=$(window).height();
+var W=$(window).width();
+$(".resultPage").width(W);
+$(".resultPage").height(H);
+
+// 显示结果
+var n = {$dia_res.star};
+var kinds = [
+             "群龙无首之水泊梁山",
+             "甩手掌柜的太平天国",
+             "股责分制的苏中合资",
+             "不温不火的北宋王朝",
+             "一盘散沙的蒋家王朝",
+             "画饼期权的大汉高祖",
+             "同心同德的西蜀汉邦"
+            ];
+
+var people=[
+            "梁山公司",
+            "太平天国的均股模式",
+            "早期CPC公司",
+            "赵匡胤",
+            "蒋介石",
+            "刘邦公司的老板模式",
+            "刘备公司的合伙模式",
+        ]
+
+$(".resultPage .people").text(people[n - 1]);
+$(".resultPage .kind").text(kinds[n - 1]);
+$(".resultPic img").attr('src', "/statics/default/images/result/res"+n+".png");
+$(".resultPage .starts li").slice(0, n).find("i").addClass('successStar');
+$(".loginBg").on("click", function() {
+    $(this).hide();
+    $(".login").hide();
+})
+
+var userid = $('#userid').val();
+var member_id = $('#member_id').val();
+var status = $('#status').val();
+var time = <?php echo $time; ?>;	   
+var jsapi_ticket = '<?php echo $jsapi_ticket; ?>';				
+var url = window.location.href;		
+var signature = $("#signature").val();	
+var s_title = '我的企业股权架构评分为:'+'{$dia_res.score}';     //分享标题
+var s_link = '{$share_url}';  //分享链接
+var s_desc = '我的公司结构类型为：'+kinds[n-1];              //分享描述
+var s_imgUrl = "http://dev.guquanbang.com/statics/default/images/result/res"+n+".png";//分享图标
+
+//显示分享的图片
+function share()
+{
+	if(userid == undefined || userid == null || userid == '')
+    {
+         //弹出登录屏蔽层
+        $('.loginBg').show();
+        $('.login').show();
+        return false;
+	}
+    //判断当前登录这是否为这条记录的创建者
+    if( userid !=='' && userid == member_id)
+    {
+    	$('.fxDiv').css('display','block');  
+    }else
+    {
+        alert('您不是本次计算结果的拥有人，不能分享！');
+    }
+}
+
+//页面加载即执行
+wx.config({
+		debug: false, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+		appId: '<?php echo $appid?>', // 必填，公众号的唯一标识
+		timestamp: time, // 必填，生成签名的时间戳
+		nonceStr: 'BogLeUnion', // 必填，生成签名的随机串
+		signature: signature,// 必填，签名，见附录1
+		jsApiList: ['onMenuShareTimeline','hideMenuItems','showMenuItems','onMenuShareAppMessage','onMenuShareQQ','onMenuShareWeibo','onMenuShareQZone'] // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+});	
+
+
+
+wx.ready(function (){	
+   if(status =='0' || member_id !== userid || userid =='')
+   {
+	   wx.hideMenuItems({
+		    menuList: ['menuItem:share:appMessage','menuItem:share:timeline','menuItem:share:qq','menuItem:share:weiboApp','menuItem:favorite','menuItem:share:facebook','menuItem:share:QZone'] // 要隐藏的菜单项，只能隐藏“传播类”和“保护类”按钮，所有menu项见附录3
+		});
+   }else if(status=='1' && member_id == userid)
+   {
+	   
+	   wx.showMenuItems({
+		    menuList: ['menuItem:share:appMessage','menuItem:share:timeline','menuItem:share:qq','menuItem:share:weiboApp','menuItem:favorite','menuItem:share:facebook','menuItem:share:QZone'] // 要显示的菜单项，所有menu项见附录3
+		});
+    }
+   //隐藏分享按钮
+   
+   //分享到朋友圈
+   wx.onMenuShareTimeline({
+    title: s_title, // 分享标题
+    link: s_link, // 分享链接
+    imgUrl: s_imgUrl, // 分享图标
+    success: function () { 
+    	alert('分享成功');
+    },
+    cancel: function () { 
+        // 用户取消分享后执行的回调函数
+		alert("您已取消分享！");
+    }
+   });
+
+   //分享给朋友
+   wx.onMenuShareAppMessage({
+    title: s_title, // 分享标题
+    desc: s_desc, // 分享描述
+    link: s_link, // 分享链接
+    imgUrl: s_imgUrl, // 分享图标
+    type: '', // 分享类型,music、video或link，不填默认为link
+    dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+    success: function () { 
+    	alert('分享成功');
+    },
+    cancel: function () { 
+        // 用户取消分享后执行的回调函数
+		alert("您已取消分享！");
+    }	
+   });
+
+   //分享到QQ
+   wx.onMenuShareQQ({
+    title: s_title, // 分享标题
+    desc: s_desc, // 分享描述
+    link: s_link, // 分享链接
+    imgUrl: s_imgUrl, // 分享图标
+    success: function () { 
+    	alert('分享成功');
+    },
+    cancel: function () { 
+       alert("您已取消分享！");
+    }
+   });
+
+   //分享到腾讯微博
+   wx.onMenuShareWeibo({
+    title: s_title, // 分享标题
+    desc: s_desc, // 分享描述
+    link: s_link, // 分享链接
+    imgUrl: s_imgUrl, // 分享图标
+    success: function () { 
+    	alert('分享成功');
+    },
+    cancel: function () { 
+       alert("您已取消分享！");
+    }
+  });
+
+   //分享到QQ空间
+   wx.onMenuShareQZone({
+    title: s_title, // 分享标题
+    desc: s_desc, // 分享描述
+    link: s_link, // 分享链接
+    imgUrl: s_imgUrl, // 分享图标
+    success: function (){ 
+    	alert('分享成功');
+    },
+    cancel: function (){ 
+        alert("您已取消分享！");
+    }
+
+  });
+	
+});
+</script>
+<script>
+//判断是否登录后，才能进行打赏
+function checklogin()
+{
+	var userid = $('#userid').val();
+	var id = $('#id').val();
+	if(userid == undefined || userid == null || userid == '')
+    {
+         //弹出登录屏蔽层
+        $('.loginBg').show();
+        $('.login').show();
+	}else
+	{
+		//用户登录，可以使用打赏功能
+	    $(".payDiv").velocity({
+	            bottom: 0
+	        }, 400);	
+	}
+}
+
+$(".payDiv").on("click", function() {
+    $(this).velocity({
+        bottom: "-2.133333rem"
+    }, 400);
+});
+
+//调用微信同意下单接口，获得微信预支付订单号
+var requestParam = null;
+function weixin(){
+	var data = new Object();
+	data['dia_tool_id'] = {$dia_res.id};//诊断器结果ID
+    var url = '/index.php/Content/WeixinPay/EquityOrder';
+    $.ajax({
+    	url:url,
+    	type:"POST",
+    	data:data,
+    	timeout:15000,
+    	dataType:"json",
+    	success:function(r){
+    		if(r.code == 0){
+                        
+        		requestParam=JSON.parse(r.jsApiParameters);
+        		pay();
+    		}else {
+    			alert("订单创建失败，稍后重试");
+    	   	}
+    	},
+    })	
+}
+
+//微信支付
+function pay(){
+    WeixinJSBridge.invoke('getBrandWCPayRequest',{
+        "appId": requestParam.appId,
+        "timeStamp": requestParam.timeStamp,
+        "nonceStr": requestParam.nonceStr,
+        "package": requestParam.package,
+        "signType": requestParam.signType,
+        "paySign": requestParam.paySign
+    },function(res){
+        if(res.err_msg == "get_brand_wcpay_request:ok" ) {
+        	wx.showMenuItems({
+    		    menuList: ['menuItem:share:appMessage','menuItem:share:timeline','menuItem:share:qq','menuItem:share:weiboApp','menuItem:favorite','menuItem:share:facebook','menuItem:share:QZone'] // 要显示的菜单项，所有menu项见附录3
+    		}); //支付成功后显示右上角分享功能按钮
+    		//替换html代码，显示出分享按钮
+    		$('#html').html('<div class="rewardBtn payBtn"><a href="javascript:void(0)" onclick="share()">分享</a></div><div class="rewardBtn payBtn"><a href="/index.php/content/diacrisisTool/diagnosis" >股权诊断器</a></div>');
+
+        	alert("支付成功");           
+        }
+        else if(res.err_msg == "get_brand_wcpay_request:cancel" ){
+            alert("支付失败");
+        }
+    });
+}
+
+//支付宝支付
+function zhifubao()
+{
+	var data = new Object();
+	data['dia_tool_id'] = {$dia_res.id};//诊断器结果ID
+    var url = '/index.php/Content/AliPay/dia_pay_confirm';
+    $.ajax({
+    	url:url,
+    	type:"POST",
+    	data:data,
+    	timeout:15000,
+    	dataType:"json",
+    	success:function(r){
+        	if(r.code=='1'){
+            	//获得订单号
+            	window.location.href='/index.php/Content/AliPay/confirm/order_type/zdq/order_num/'+r.msg.verification_code;
+            }		
+    	},
+    	error:function(){
+    		alert(data.errormsg);
+    	}
+    })	
+	
+	
+}
+</script>
+</html>

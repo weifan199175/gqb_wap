@@ -1,0 +1,45 @@
+[data-dpr="2"] div {
+    font-size: 28px;
+}
+[data-dpr="3"] div {
+    font-size: 42px;
+}
+div{
+	font-size: 14px;
+}
+.banner img,.joinBtn img{
+	display: block;
+}
+.video iframe{
+	width: 100%;
+}
+.talk div{
+	margin: 0.25rem;
+}
+.title1{
+	width: 60%;
+	margin: 0.25rem auto;
+}
+.title1Info{
+	width: 90%;
+	margin: 0.5rem auto;
+}
+.flag1{
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	background: #35A92E;
+	color: #fff;
+	margin: 1rem 0;
+}
+.que{
+	width: 90%;
+	margin: 0 auto 1rem;
+}
+.contact{
+	color: #888;
+	text-align: center;
+}
+.contact p{
+	margin: .5rem;
+}

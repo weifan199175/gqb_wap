@@ -1,0 +1,155 @@
+/*支付人信息*/
+html{
+	background: #f4f4f4;
+}
+.userInfo{
+	background: #fff;
+	padding: 0.4rem;
+	margin-bottom: 0.266667rem;
+	border:1px solid #ddd;
+}
+.userInfo div{
+	font-size:0.48rem;
+}
+.nameInput,.phoneInput{
+	padding: 0.266667rem 0;
+}
+.nameInput span,.phoneInput span{
+	width: 2rem;
+	display: inline-block;
+}
+.nameInput input,.phoneInput input{
+	border-bottom: 1px solid #ededed;
+	width: -webkit-calc(100% - 2.2rem);
+	width: calc(100% - 2.2rem);
+}
+.userInfo .error{
+	color: #c00;
+	font-size: 0.373333rem;
+	margin-left: 2.2rem;
+}
+
+
+/*支付列表*/
+.classList{
+	background: #fff;
+	padding: 0 0.266667rem;
+	border:1px solid #ddd;
+}
+.classList li{
+	border-top:1px solid #ddd;
+}
+.classList .liTitle{
+	font-size: 0.453333rem;
+	padding: 0.266667rem 0;
+	border-bottom: 1px solid #ddd;
+}
+.classInfo{
+	display: -webkit-flex; 
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: flex; 
+	-webkit-flex-direction: row; 
+	-webkit-box-orient: horizontal; 
+	-webkit-box-direction: normal; 
+	    -ms-flex-direction: row; 
+	        flex-direction: row;
+	padding: 0.266667rem 0;
+}
+
+.classInfo .classPic{
+	width: 4.6rem;
+	margin: 0 0.4rem;
+}
+.classInfo .classPic img{
+	width: 100%;
+}
+.classInfo .classRight{
+	width: 100%;
+}
+.classInfo .classRight .classTitle{
+	min-height: 1.333333rem;
+}
+.classInfo .classPrice{
+	color: #E60012;
+	font-weight: bolder;
+	text-align: right;
+	font-size: 0.373333rem;
+	margin-top: 0.266667rem;
+}
+
+/*众筹支付*/
+.checkDiv{
+	margin: 0.266667rem 0;
+}
+.checkDiv li{
+	font-size: 0.4rem;
+	padding: 0.266667rem;
+	background: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	-ms-flex-pack:justify;
+	justify-content:space-between;
+	color: #26AB28;
+	border-bottom:1px solid #ddd;
+}
+.checkDiv .checkIcon{
+	font-size: 0.373333rem;
+
+}
+
+/*合计*/
+.totleDiv{
+	padding: 0.266667rem;
+	background: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	-ms-flex-pack:justify;
+	justify-content:space-between;
+	padding-bottom: 1.333333rem;
+}
+.totleDiv a{
+	color: #333;
+}
+.totleDiv .help,.totleDiv .totlePrice{
+	display: inline-block;
+	font-size: 0.373333rem;
+}
+.totleDiv .helpIcon{
+	font-size: 0.373333rem;
+}
+.totleDiv .totlePrice{
+	color: #E60012;
+	font-weight: bolder;
+	font-size: 0.373333rem;
+}
+
+/*提交按钮*/
+.payBtnDiv{
+	background: #fff;
+	padding-bottom: 0.533333rem;
+	margin-bottom: 2.666667rem;
+}
+.payBtnDiv .payBtn{
+	width: 9.066667rem;
+	height: 1.2rem;
+	background: #e60012;
+	line-height: 1.2rem;
+	text-align: center;
+	color: #fff;
+	border-radius: 0.133333rem;
+	margin: 0 auto;
+	font-size: 0.426667rem;
+}
+.payBtnDiv .payBtn a{
+	display: block;
+	color: #fff;
+}

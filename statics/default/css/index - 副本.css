@@ -1,0 +1,79 @@
+/*股权帮首页样式*/
+/*定义公共样式*/
+.ubb-d{border-color: #ddd;}
+.ub-cd{border-color: #ddd;}
+.tx-c2{color: #222;}
+.tx-c4{color: #444;}
+.tx-c8{color: #888;}
+.tx-ca{color: #aaa;}
+.tx-cf{color: #fff;}
+.tx-cred{color: #ff3b2f;}
+.tx-cog{color: #ffcc00;}
+.tx-cgn{color: #47b674;}
+.tx-cblu{color: #37a7e6;}
+.bg-red{background: #e60012;}
+
+.swiper-container {width: 100%; height: 12.075em;}
+.swiper-slide {text-align: center; font-size: 18px; background: #fff; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center;justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
+.swiper-slide img{width: 100%; height: 12.075em;}
+.banner .swiper-pagination-bullet{width: 12px; height: 12px; background: #fff; opacity: 1}
+.banner .swiper-pagination-bullet-active{background: #e60012;}
+
+/*nav*/
+.navBox{margin-bottom: 1em; background: #fff;}
+.navBox .nav{width: 25%; font-size: 0.9em; padding-top:0.5em; padding-bottom:0.8em;}
+.navBox .nav span{font-size: 1.8em; margin-bottom: 0.3em;}
+
+/*精选课程*/
+.classBox{margin-bottom: 1em; background: #fff;}
+.classBox .more{font-size:0.9em;}
+.classList .img{width: 7.935em; height: 5.9512em; margin-right: 0.6em;}
+.classList .img img{width: 7.935em; height: 5.9512em;}
+.classList .con h5{font-size: 0.9em; font-weight: normal; height: 1.2em; margin-bottom: 0.5em; }
+.classList .con .info{font-size: 0.72em; margin-bottom: 0.4em; max-width: 9.5em; overflow: hidden;}
+.classList .con .info span{font-size: 1.2em;}
+.classList .con .bmbtn{font-size: 0.5em; position: absolute; bottom:0em; right:0em; min-width: 4.6em; height: 1.65em; }
+
+/*股权资讯*/
+.stockNewsBox{margin-bottom: 1em; margin-bottom: 8.2em; background: #fff;}
+.stockNewsBox .more{font-size:0.9em;}
+.stockNewsList{}
+.stockNewsList .img{width: 4.965em; height:3.7395em; margin-right: 0.8em;}
+.stockNewsList .img img{width: 4.965em; height:3.7395em;}
+.stockNewsList h5{font-size: 0.84375em; height: 2.8em; margin-bottom: 0.2em; line-height: 1.4em; font-weight: normal;}
+.stockNewsList .info .time{font-size: 0.8em; margin-right: 1.4em;}
+.stockNewsList .info .number{font-size: 0.8em;}
+.stockNewsList .info .number em{font-size: 1.4em; margin-right: 0.2em;}
+
+/*页脚*/
+.footer{position: fixed; bottom: 0em; left: 0; width:100%; background: #fff;}
+.ftBtFixed{position: fixed; bottom: 3.75em; left: 0; width:100%; background: #fff;}
+.ftBtFixed .btn{padding:0.6em 0.9em; width:100%; background: #fff;}
+.ftBtFixed .callbtn{padding:0.6em 0.6em;}
+.ftBtFixed .callbtn .iconfont{font-size: 1.2em;}
+.ftNav a{width: 35%; padding:0.4em;}
+.ftNav a span{font-size: 0.88em;}
+.ftNav a em{font-size: 1.4em; margin-bottom: 0.2em; color: #888888;}
+.ftNav a:hover{color: #e60012;}
+.ftNav a:hover em{color: #e60012;}
+.ftNav a.current{color: #e60012;}
+.ftNav a.current em{color: #e60012;}
+.ftNav a .gqblogo{width:1.98em; height:1em; margin-top: 0.1em; margin-bottom: 0.3em; background: url(../images/gqblogo1.png) no-repeat center center; background-size: 1.65em auto;}
+.ftNav a.current .gqblogo{background: url(../images/gqblogo2.png) no-repeat center center; background-size: 1.65em auto;}
+.ftNav a:hover .gqblogo{background: url(../images/gqblogo2.png) no-repeat center center; background-size: 1.65em auto;}
+
+/*-----------------课程列表页面-----------------------*/
+/*公用头部*/
+.header{width: 100%; height: 3rem; color: #fff; background: #212121;}
+.header em{color: #fff; font-size: 1rem;}
+.BclassBox{margin-bottom: 9em; padding-top: 0.3em;}
+.BclassList li{margin: 0.3em 0.6em;}
+.BclassList .pics{width: 100%; height:auto;} 
+.BclassList .imgPup{width: 100%; height: 100%; font-size: 1.1em; color: #fff; background: url(../images/bgup.png) repeat;}
+
+/*课程详情*/
+.BclassBox .title{padding:0.5em 0; font-size: 1em;}
+.BclassBox .con p{font-size: 0.86em; line-height: 1.9em; color: #454545;}
+
+
+

@@ -1,0 +1,381 @@
+html{
+	background: #f4f4f4;
+}
+body{
+	margin-bottom: 2.666667rem;
+}
+/*固定icons*/
+.icons{
+	position: fixed;
+	right: 0.133333rem;
+	top: 50%;
+	z-index: 999;
+}
+
+.icons a{
+	background: #e64040;
+	border-radius: 50%;
+	color: #fff;
+	display: block;
+	width: 1.333333rem;
+	height: 1.333333rem;
+	text-align: center;
+	line-height: 1.333333rem;
+	margin: 0.266667rem 0;	
+}
+.icons a i{
+	font-size: 0.533333rem;
+}
+
+/*分享内容*/
+
+.talkList li{
+	font-size: 0.4rem;
+	padding: 0.266667rem;
+	background: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack:justify;
+	-webkit-justify-content:space-between;
+	-ms-flex-pack:justify;
+	justify-content:space-between;
+	color: #333;
+	border-bottom:1px solid #ddd;
+}
+.talkList .checkIcon{
+	font-size: 0.373333rem;
+}
+.checkIcon{
+	color: #26AB28;
+}
+
+/*自己写点什么*/
+.bg{
+	background: rgba(0,0,0,0.6);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+.talkDiv{
+	width: 70%;
+	background: #f5f5f5;
+	border-radius: 10px;
+	position: fixed;
+	left: 15%;
+	z-index: 1000;
+	text-align: center;
+	padding: 0.266667rem;
+	display: none;
+}
+.talkDiv .talkDivTitle{
+	padding: 0.133333rem;
+	font-size: 0.4rem;
+	margin: 0.266667rem 0;
+}
+.talkDiv .talkInfo{
+	resize: none;
+	background: #fff;
+	width: 100%;
+}
+.btns{
+	font-size: 0;
+}
+.btns div{
+	display: inline-block;
+	font-size: 0.4rem;
+	width: 48%;
+	text-align: center;
+	padding: 0.266667rem;
+}
+.btns .cancel{
+	color: #e60012;
+}
+.btns .enter{
+	color: #26ab28;
+}
+
+/*众筹信息*/
+.fundingInfo{
+	display: -webkit-flex; 
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: flex; 
+	-webkit-flex-direction: row; 
+	-webkit-box-orient: horizontal; 
+	-webkit-box-direction: normal; 
+	    -ms-flex-direction: row; 
+	        flex-direction: row;
+	background: #fff;
+	padding: 0.266667rem;
+}
+.fundingInfo .userPic{
+	width: 1.6rem;
+	margin-right:0.266667rem;
+}
+.fundingInfo .userPic img{
+	width: 100%;
+}
+
+.fundingRight{
+	width: 100%;
+	position: relative;
+}
+.fundingRight .fundingBar{
+	background: #ccc;
+	height: 0.24rem;
+	width: 100%;
+	border-radius: 20px;
+}
+.fundingInfo .fundingBar .inBar{
+	background: #e60012;
+	width: 0;
+	height: 100%;
+	border-radius: 20px;
+}	
+.fundingInfo .fundingSts{
+	position: absolute;
+	right: 0;
+	top:-0.133333rem;
+	font-size: 1.2rem;
+}
+.fundingRight .fundingTitle{
+	font-size: 0.4rem;
+	margin-bottom: 0.133333rem;
+}
+.fundingRight .fundingTime{
+	color: #ccc;
+	margin-bottom: 0.133333rem;
+}
+/*已完成*/
+.over{
+	color: #1aad19;
+	/*unicode代码&#xe633;;*/
+}
+/*已过期*/
+.late{
+	color: #ccc;
+	/*unicode代码&#xe6ca;*/
+}
+/*进行中*/
+.running{
+	color: #f03846;
+	/*unicode代码&#xe64f;*/
+}
+
+/*众筹统计*/
+.fundingDate{
+	display: -webkit-flex; 
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: flex; 
+	-webkit-flex-direction: row; 
+	-webkit-box-orient: horizontal; 
+	-webkit-box-direction: normal; 
+	    -ms-flex-direction: row; 
+	        flex-direction: row;
+	background: #fff;
+	padding: 0.266667rem;
+	margin-bottom: 0.266667rem;
+}
+.fundingDate div{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 0 0;
+	    -ms-flex: 1 0 0px;
+	        flex: 1 0 0; 
+	text-align: center;
+}
+.fundingDate .progress{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+.fundingDate .peopleTotle,.fundingDate .progressTotle,.fundingDate .surplusTotle{
+	color: #e60012;
+	font-weight: bolder;
+	font-size: 0.533333rem;
+	margin-top: 0.133333rem;
+}
+
+/*课程详情*/
+.classInfo{
+	background: #fff;
+	padding:0.266667rem;
+	margin-bottom: 0.266667rem;
+}
+.classInfo .classPic{
+	width: 100%;
+}
+.classInfo .classPic img{
+	width: 100%;
+}
+.classInfo .classTitle{
+	font-size: 0.453333rem;
+	text-align: center;
+}
+
+/*倒计时*/
+.time{
+	background: #fff;
+	padding:0.266667rem;
+	margin-bottom: 0.266667rem;
+}
+.time .timeTitle{
+	font-size: 0.4rem;
+}
+.time .timeInfo{
+	text-align: center;
+	margin: 0.266667rem;
+}
+.time .timeInfo span{
+	font-size: 0.666667rem;
+	font-weight: bolder;
+	color: #e64040;
+	width: 1.333333rem;
+	display: inline-block;
+	text-align: center;
+}
+
+/*众筹详情*/
+.notice{
+	background: #fff;
+	padding:0.266667rem;
+	margin-bottom: 0.266667rem;
+}
+.notice .noticeTitle{
+	text-align: center;
+	font-size: 0.4rem;
+}
+
+/*评论*/
+.comment{
+	background: #fff;
+	padding:0.266667rem;
+}
+.commentTitle{
+	font-size: 0.4rem;
+	padding-bottom: 0.266667rem;
+	border-bottom: 1px solid #ddd;
+}
+.comment ul li{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	border-bottom: 1px solid #ddd;
+	padding-top: 0.133333rem;
+	position: relative;
+}
+.comment .commentPic{
+	width: 1.066667rem;
+	height: 1.066667rem;
+	margin-right: 0.266667rem;
+}
+.comment .commentPic img{
+	width: 100%;
+	border-radius: 50%;
+}
+.comment .commentInfo{
+	width: 100%;
+}
+.commentInfo .commentName{
+	font-size: 0.373333rem;
+}
+.commentInfo .commentName,.commentInfo .commentTime{
+	color: #888;
+}
+.commentInfo .commentTime{
+	margin: 0.133333rem 0;
+}
+.comment .commentBtn{
+	text-align: right;
+	width: 100%;
+}
+.comment .replyBtn{
+	width: 1.866667rem;
+	height: 0.8rem;
+	text-align: center;
+	line-height: 0.8rem;
+	color: #fff;
+	border-radius: 4px;
+	background: #E34245;
+	display: inline-block;
+	margin: 0.266667rem 0;
+}
+.comment .commentPrice{
+	color: #E34245;
+	font-size: 0.4rem;
+	position: absolute;
+	right: 0;
+	top: 0.133333rem;
+	font-weight: bolder;
+}
+.comment .replyDiv{
+	margin: 0.266667rem 0;
+	background: #f4f4f4;
+	color: #666;
+	padding: 0.266667rem;
+}
+
+/*回复评论*/
+/*自己写点什么*/
+.replyBg{
+	background: rgba(0,0,0,0.6);
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+.AddReply{
+	width: 70%;
+	background: #f5f5f5;
+	border-radius: 10px;
+	position: fixed;
+	left: 15%;
+	top: 20%;
+	z-index: 1000;
+	text-align: center;
+	padding: 0.266667rem;
+	display: none;
+}
+.AddReply .AddReplyTitle{
+	padding: 0.133333rem;
+	font-size: 0.4rem;
+	margin: 0.266667rem 0;
+}
+.AddReply .AddReplyInfo{
+	resize: none;
+	background: #fff;
+	width: 100%;
+}
+.replyBtns{
+	font-size: 0;
+}
+.replyBtns div{
+	display: inline-block;
+	font-size: 0.4rem;
+	width: 48%;
+	text-align: center;
+	padding: 0.266667rem;
+}
+.replyBtns .cancel{
+	color: #e60012;
+}
+.replyBtns .enter{
+	color: #26ab28;
+}
+
+
+

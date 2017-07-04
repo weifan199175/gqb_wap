@@ -1,0 +1,156 @@
+html{
+	background: #f4f4f4;
+}
+body{
+	margin-bottom: 2.666667rem;
+	padding-top: 1.333333rem;
+}
+
+/*列表nav*/
+.listNav{
+	background: #fff;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	font-size: 0.373333rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.listNav li{
+	width: 100%;
+	text-align: center;
+	padding: 0.266667rem 0;
+
+}
+.on{
+	border-bottom: 4px solid #e60012;
+	color: #e60012;
+}
+/*进行中*/
+.runningList li{
+	display: -webkit-flex; 
+	display: -webkit-box; 
+	display: -ms-flexbox; 
+	display: flex; 
+	-webkit-flex-direction: row; 
+	-webkit-box-orient: horizontal; 
+	-webkit-box-direction: normal; 
+	    -ms-flex-direction: row; 
+	        flex-direction: row;
+	background: #fff;
+	padding: 0.266667rem;
+	margin-bottom: 0.266667rem;
+}
+.runningList .classPic{
+	width: 2.133333rem;
+	margin-right:0.266667rem;
+	text-align: center;
+	color: #e60012;
+
+}
+.runningList .classPic img{
+	width: 100%;
+
+}
+
+.classRight{
+	width: 100%;
+}
+.classRight .classBar{
+	background: #ccc;
+	height: 0.24rem;
+	width: 100%;
+	border-radius: 20px;
+	margin: 0.266667rem 0;
+
+}
+.classRight .classBar .inBar{
+	background: #e60012;
+	width: 0;
+	height: 100%;
+	border-radius: 20px;
+}	
+
+.classRight .classTitle{
+	font-size: 0.373333rem;
+	margin-bottom: 0.133333rem;
+}
+.runningList .classProgress{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	color: #666;
+}
+.runningList .classBtns{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.runningList .classBtns .join a{
+	color: #666;
+	border: 1px solid #ddd;
+	display: block;
+	width: 2.4rem;
+	height: 0.933333rem;
+	text-align: center;
+	line-height: 0.933333rem;
+	border-radius: 4px;
+	margin: 0.266667rem;
+}
+.runningList .classBtns .my a{
+	color: #fff;
+	display: block;
+	width: 2.4rem;
+	height: 0.933333rem;
+	text-align: center;
+	line-height: 0.933333rem;
+	background: #e60012;
+	border-radius: 4px;
+	margin: 0.266667rem;
+}
+/*已完成*/
+.overList{
+	display: none;
+}
+.overList .classSts{
+	color: #1aad19; 
+}
+
+/*已过期*/
+.lateList{
+	display: none;
+}
+.lateList .classSts{
+	color: #ccc;
+}
+
+
+

@@ -1,0 +1,21 @@
+/*================股权帮后台样式及公共部分样式================*/
+.Title .tt{cursor: pointer; min-height: 24px; line-height: 24px; padding-left:30px; background: url(../images/open.png) no-repeat left center;}
+.Title .up{background: url(../images/close.png) no-repeat left center;}
+.ttwo{padding-left: 30px;}
+.subTable tr{}
+.subTable tr.odd {background-color:#e8e8e8;}
+.subTable tr.even {background-color:#dbdbdb;}
+.subTableBox{display: none;}
+.table_list tr:hover td .subTable tr.odd td{background-color:#e8e8e8;}
+.table_list tr:hover td .subTable tr.even td{background-color:#dbdbdb;}
+.table_list tr:hover td .subTable tr.odd:hover td{background-color:#afdae8;}
+.table_list tr:hover td .subTable tr.even:hover td{background-color:#afdae8;}
+
+
+
+
+
+
+
+
+

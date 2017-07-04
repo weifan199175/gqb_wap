@@ -1,0 +1,10 @@
+[2016-12-08 10:01:50][debug] string:appid=wxf53ced15df6d9c63&attach=1&body=股权帮&mch_id=1325297401&nonce_str=r9lgq0q2xaxkgdyp00sic3srf6opflgr&notify_url=http://cs.bogleunion.com/api.php/PayNotify/webchatpay_notify.html&openid=oBZpmxL-eamNLk8hGU4MJm1sn9v4&out_trade_no=2016120810053545&spbill_create_ip=123.151.42.52&time_expire=20161208101150&time_start=20161208100150&total_fee=380000&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-12-08 10:01:50][debug] key:bogleunionL18899765853bogleunion
+[2016-12-08 10:01:52][debug] string:appid=wxf53ced15df6d9c63&mch_id=1325297401&nonce_str=3bd2e2NpwpOZ75sy&prepay_id=wx201612081001523645943eb20489340909&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-12-08 10:01:52][debug] key:bogleunionL18899765853bogleunion
+[2016-12-08 10:01:52][debug] string:appId=wxf53ced15df6d9c63&nonceStr=r9k1rhy3t96u1p8ndp3rv82s1gupi58t&package=prepay_id=wx201612081001523645943eb20489340909&signType=MD5&timeStamp=1481162512&key=bogleunionL18899765853bogleunion
+[2016-12-08 10:01:52][debug] key:bogleunionL18899765853bogleunion
+[2016-12-08 22:05:59][debug] string:appid=wxf53ced15df6d9c63&attach=1&body=股权帮&mch_id=1325297401&nonce_str=bdvm4jy9wnnpgwpvjlaxw2tlawgnqqop&notify_url=http://cs.bogleunion.com/api.php/PayNotify/webchatpay_notify.html&openid=oBZpmxCyegmlRU5eyNzEb_q6liWo&out_trade_no=2016120854564910&spbill_create_ip=117.136.54.44&time_expire=20161208221559&time_start=20161208220559&total_fee=1000000&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-12-08 22:05:59][debug] key:bogleunionL18899765853bogleunion
+[2016-12-08 22:08:46][debug] string:appid=wxf53ced15df6d9c63&attach=1&body=股权帮&mch_id=1325297401&nonce_str=vlgdten862qeiv98cv8gci5g8q354f2j&notify_url=http://cs.bogleunion.com/api.php/PayNotify/webchatpay_notify.html&openid=oBZpmxCyegmlRU5eyNzEb_q6liWo&out_trade_no=2016120810149555&spbill_create_ip=117.136.54.44&time_expire=20161208221846&time_start=20161208220846&total_fee=1000000&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-12-08 22:08:46][debug] key:bogleunionL18899765853bogleunion

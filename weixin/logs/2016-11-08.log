@@ -1,0 +1,6 @@
+[2016-11-08 17:25:34][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=is71u9bregg4s3j946gwgdfduk6krp9u&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijinHYNosU8cJp8xemecqdbQ&out_trade_no=2016110899509957&spbill_create_ip=101.226.125.14&time_expire=20161108173534&time_start=20161108172534&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-08 17:25:34][debug] key:bogleunionL18899765853bogleunion
+[2016-11-08 17:25:35][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=Wg55Z7s59rqxmcoL&prepay_id=wx20161108172609b78a56c2080723656940&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-08 17:25:35][debug] key:bogleunionL18899765853bogleunion
+[2016-11-08 17:25:35][debug] string:appId=wx245ceeacd691162a&nonceStr=fq39sgrwioflipl5dxi8yde0lwt14ipb&package=prepay_id=wx20161108172609b78a56c2080723656940&signType=MD5&timeStamp=1478597135&key=bogleunionL18899765853bogleunion
+[2016-11-08 17:25:35][debug] key:bogleunionL18899765853bogleunion

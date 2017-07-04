@@ -1,0 +1,6 @@
+[2016-12-01 08:37:08][debug] string:appid=wxf53ced15df6d9c63&attach=1&body=股权帮&mch_id=1325297401&nonce_str=7ig4wdaazzaxdxg10y4f3y1c2k4rbxlo&notify_url=http://cs.bogleunion.com/api.php/PayNotify/webchatpay_notify.html&openid=oBZpmxCyegmlRU5eyNzEb_q6liWo&out_trade_no=2016120152515650&spbill_create_ip=223.104.7.69&time_expire=20161201084708&time_start=20161201083708&total_fee=380000&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-12-01 08:37:08][debug] key:bogleunionL18899765853bogleunion
+[2016-12-01 08:37:10][debug] string:appid=wxf53ced15df6d9c63&mch_id=1325297401&nonce_str=E8H7oPkRc7vl9pq2&prepay_id=wx20161201083710461867e3a40042852344&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-12-01 08:37:10][debug] key:bogleunionL18899765853bogleunion
+[2016-12-01 08:37:10][debug] string:appId=wxf53ced15df6d9c63&nonceStr=bkumer3z9ju3839gd9kikcravbcz8m8g&package=prepay_id=wx20161201083710461867e3a40042852344&signType=MD5&timeStamp=1480552630&key=bogleunionL18899765853bogleunion
+[2016-12-01 08:37:10][debug] key:bogleunionL18899765853bogleunion

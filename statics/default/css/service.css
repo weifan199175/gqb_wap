@@ -1,0 +1,254 @@
+/*------------------------股权帮个人会员中心页面-------------------------*/
+.ubb-d{border-color: #ddd;}
+.ub-cd{border-color: #ddd;}
+.bgc{background: #fff;}
+.tx-red{color: #e60012;}
+.tx-cred{color: #e60012;}
+.tx-c2{color: #222;}
+.tx-c2 a{color: #222;}
+.tx-c4{color: #444;}
+.tx-c8{color: #888;}
+.tx-cf{color: #fff;}
+.tx-d{color: #ddd;}
+.tx-a{color: #aaa;}
+.bg-red{background: #e60012;}
+.tx-cgn{color: #47b674;}
+.tx-cog{color: #ffcc00;}
+.tx-cog2{color: #ff8a00;}
+.tx-cog3{color: #ffa300;}
+.bg-d{background: #ddd;}
+.bg-a{background: #aaa;}
+.bg-f4{background: #f4f4f4;}
+.mar-b7{margin-bottom: 0.7em;}
+.umar-a2{margin:0.2em 1.2em;}
+.header{width: 100%; height: 3rem; color: #fff; background: #212121;}
+.header em{color: #fff; font-size: 1rem;}
+/*我的-合伙社员申请*/
+.myApplyBox{}
+.myApplyBox{margin-bottom: 3em;}
+.myApplyBox .myApply{padding-top: 2em;}
+.myApplyBox .myApply img{width: 5.045em;}
+.myApplyBox .title{font-size: 0.86em;}
+.myApplyBox .price{font-size: 1.8em; margin-bottom: 0.45em; padding-bottom:1.2em;}
+.myApplyBox .reading{font-size: 0.88em; margin-bottom: 1.2em;}
+.myApplyBox .reading a{color: #0027ee; text-decoration: underline;}
+.myApplyBox .reading a:hover{color: #e60012;}
+.myApplyBox .uinput input{background: #e60012; padding:0.6em 0;}
+
+.joinChose{margin-bottom: 1em;}
+.joinChose li{ font-size: 1em;}
+.joinChose .chose{font-size: 0.88em;}
+.joinChose .chose i{color: #888;}
+.joinChose .radiobox{width: 1.2em; height: 1.2em; font-size: 1.2em;}
+.joinChose .radiobox input[type=radio]:before{font-size: 1.4em;}
+.joinChose .radiobox input[type=radio]:checked:before{color: #e60012;}
+.joinChose li.sumM .tit{font-size: 1.12em;}
+.joinChose li.sumM .number{font-size: 1.112em;}
+.joinChose li .zfImg{margin-right: 1em;}
+.joinChose li .zfImg img{width: 2.798em; height: 2.798em;}
+.joinChose li .con h5{font-size: 0.8em; margin-bottom: 0.2em;}
+.joinChose li .con span{font-size: 0.3em;}
+
+.joinBox .reading{font-size: 0.9em; margin-bottom: 2em;}
+.joinBox .reading a{color: #0027ee; text-decoration: underline;}
+.joinBox .reading a:hover{color: #e60012;}
+.joinBox .uinput input{background: #e60012; padding:0.6em 0;}
+
+/*公用头部*/
+.sTitle{ margin-bottom: 1em; }
+.sTitle .list{width:33%; padding:1em 0; font-size: 0.8em; color: #444;}
+.sTitle .list span{width: 0.8625em; height: 0.8625em; margin-right: 0.2em;}
+.sTitle .list span.stt1{background: url(../images/s1.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .list span.stt2{background: url(../images/s2.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .list span.stt3{background: url(../images/s3.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .list span.stt4{background: url(../images/s4.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .list span.stt5{background: url(../images/s5.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .list span.stt6{background: url(../images/s6.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .current{width:33%; padding:1em 0; font-size: 0.8em; background-color: #e60012; color: #fff;}
+.sTitle .current span{width: 0.8625em; height: 0.8625em;}
+.sTitle .current span.stt1{background: url(../images/s11.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .current span.stt2{background: url(../images/s12.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .current span.stt3{background: url(../images/s13.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .current span.stt4{background: url(../images/s14.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .current span.stt5{background: url(../images/s15.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+.sTitle .current span.stt6{background: url(../images/s16.png) no-repeat center center; background-size:0.8625em 0.8625em;}
+
+/*页脚*/
+.footerbtn{padding:0.6em 0.9em; position: fixed; bottom: 3.7em; left: 0; width:100%; background: #fff;}
+.ftBtFixed{position: fixed; bottom: 3.75em; left: 0; width:100%; background: #fff; z-index: 99999;}
+.ftBtFixed .btn{padding:0.6em 0.9em;}
+.ftBtFixed .btn2{padding-top: 0;}
+.ftBtFixed .callbtn{padding:0.6em 0.6em;}
+.ftBtFixed .btn2 .callbtn{background: #aaaaaa;}
+.ftBtFixed .btn2:hover .callbtn{background: #e60012;}
+.ftBtFixed .callbtn .iconfont{font-size: 1.2em;}
+.footer{position: fixed; bottom: 0; left: 0; z-index: 99; width:100%; background: #fff;}
+.ftNav a{width: 35%; padding:0.4em;}
+.ftNav a span{font-size: 0.88em;}
+.ftNav a em{font-size: 1.4em; margin-bottom: 0.2em; color: #888888;}
+.ftNav a:hover{color: #e60012;}
+.ftNav a:hover em{color: #e60012;}
+.ftNav a.current{color: #e60012;}
+.ftNav a.current em{color: #e60012;}
+.ftNav a .gqblogo{width:1.98em; height:1em; background: url(../images/gqblogo1.png) no-repeat center center; background-size: 1.65em auto;}
+.ftNav a.current .gqblogo{background: url(../images/gqblogo2.png) no-repeat center center; background-size: 1.65em auto;}
+.ftNav a:hover .gqblogo{background: url(../images/gqblogo2.png) no-repeat center center; background-size: 1.65em auto;}
+
+.memberBox{padding-bottom: 8em;}
+.menber{padding:1em 0.5em;}
+.menber h5{margin-bottom:0.8em; font-size: 1em; font-weight: bold; color: #e60012;}
+.menber .con{font-size: 0.88em; color: #444; line-height: 2.2em;}
+
+/*社员服务-社员升级*/
+.UPmemberBox{padding-bottom: 7em; z-index: 3;}
+.swiper-container {width: 100%; height: 12.075em;}
+.swiper-slide {text-align: center; font-size: 18px; background: #fff; display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center;justify-content: center; -webkit-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; }
+.swiper-slide img{width: 100%; height: 12.075em;}
+.banner .swiper-pagination-bullet{width: 12px; height: 12px; background: #fff; opacity: 1}
+.banner .swiper-pagination-bullet-active{background: #e60012;}
+/*最新课程*/
+.classBox{margin-bottom: 1em; background: #fff;}
+.classBox .more{font-size:0.9em;}
+.classList .img{width: 7.805em; height: 5.922em; margin-right: 0.8em;}
+.classList .img img{width: 7.805em; height: 5.922em;}
+.classList .con h5{font-size: 0.9em; font-weight: normal; height: 1.2em; }
+.classList .con .info{font-size: 0.78em; margin-bottom: 0.2em;}
+.classList .con .info span{font-size: 1.12em;}
+.classList .con .bmbtn{font-size: 0.8em; position: absolute; bottom:0em; right:0em; width: 4.605em; height: 1.6em; background: #fff;}
+
+/*会员升级*/
+.updateBox{margin-bottom: 2em;}
+.upStyle{margin-bottom: 0.7em;}
+.upStyle .vipLevel{font-size: 0.88em;}
+.upStyle .vipLevel span{color: #888; font-size: 0.82em;}
+.upStyle .vipLevel .radiobox{width: 1.2em; height: 1.2em; font-size: 1.2em;}
+.upStyle .vipLevel .radiobox input[type=radio]:before{font-size: 1.4em;}
+.upStyle .vipLevel .radiobox input[type=radio]:checked:before{color: #e60012;}
+.upStyle .myNumber .tt{font-size: 1.042em;}
+.upStyle .myNumber .number{font-size: 1em; color: #e60012;}
+.updateBox .uinput input{background: #e60012; padding:0.6em 0;}
+.updateBox .reading{font-size: 0.9em; margin-bottom: 1.5em; margin-top: 1em;}
+.updateBox .reading a{color: #0027ee; text-decoration: underline;}
+.updateBox .reading a:hover{color: #e60012;}
+.zxList .con{height: 5.922em;}
+.zxList .con h5{height: 2.6em; line-height: 1.4em;}
+.zxbt{position: absolute; bottom:0; right: 0em;}
+.zxbt a{width: 4.605em; height: 1.6em; margin-left: 0.5em; font-size: 0.8em; background: #fff;}
+.zxbt a:hover{color: #fff; background: #e60012; border-color: #e60012;}
+
+/*积分充值*/
+.jfresetBox{margin-bottom: 3em;}
+.jfBox{padding-top: 1em; height: 7em; background: #e60012;}
+.jfBox .tt{font-size: 0.88em;}
+.jfBox .number{font-size: 2.25em;}
+.jfreset .tt{font-size: 0.9em;}
+.jfresetBox .uinput input{background: #e60012; padding:0.6em 0;}
+.jfreset .uinput input{font-size: 0.88em; text-align: right; background: none;}
+.jfresetBox .reading{margin-bottom: 1.4em;}
+.reading .czinco{font-size: 0.7em;}
+
+/*积分兑换*/
+.jfExchangeBox {margin-bottom: 4em;}
+.jfExchangeBox .top{ margin-bottom: 0.7em; }
+.jfExchangeBox .jfImg{width: 7.805em; height: 5.922em; margin-right: 0.8em;}
+.jfExchangeBox .jfImg img{width: 7.805em; height: 5.922em;}
+.jfExchangeBox  .rtinfo h5{font-weight: normal; font-size: 0.9em; height: 3em; line-height: 1.4em; overflow: hidden;}
+.jfExchangeBox .jfNumber{color:#ffa300; position: absolute; bottom:0; left: 0;}
+.jfExchangeBox .jfNumber .iconfont{font-size: 1em;}
+.jfExchangeBox .jfNumber em{font-size: 1.6em;}
+.jfdh li{padding:0.9em 0.7em;}
+.jfdh{font-size: 0.9em; margin-bottom: 8em;}
+.jfExchangeBox .uinput input{background: #e60012; padding:0.6em 0;}
+
+/*新物种进化详情*/
+.newThingBox{margin-bottom: 2em; min-height: 10em;}
+.newThingBox h5{font-size: 1em; margin-bottom: 0.4em;}
+.newThingBox .con{font-size: 0.88em; line-height: 2em; }
+.newThingBox .con img{display: block; width: 100%; margin:0.8em 0;}
+
+/*上课报名*/
+.inClassEnterBox{}
+.inClassEnterBox .inClass{font-size: 1.3em; padding-top: 1.5em; font-weight: bold; font-family: "Microsoft Yahei";}
+.inClassEnterBox .price{font-size: 1.2em; padding:0.5em 0;}
+.inClassEnterBox .title{font-size: 0.85em; padding:0.2em;}
+.enter{margin:0 1em 0.5em 1em; padding-top: 2em;}
+.enter .iconfont{padding-right: 0.8em; font-size: 1.25em; color: #444;}
+.enter .uinput input{padding:0; font-size: 0.9em;}
+.inClassEnterBox .btn input{background: #e60012; padding:0.6em 0;}
+
+/*股权博弈详情*/
+.gqbyDtt{padding:0.4em 0.6em 0.6em; font-size: 1em; font-weight: bold; color: #222;}
+.teacherIt{padding-bottom: 0.8em;}
+.teacherIt .phto{width: 4.605em; height: 4.605em; border-radius:100%; margin-right: 0.8em;}
+.teacherIt .phto img{width: 4.605em; height: 4.605em; border-radius:100%;}
+.teacherIt .introduction .name{max-height: 4.5em; overflow: hidden; margin-bottom: 0.5em; font-size: 0.88em; line-height: 1.5em;}
+.teacherIt .introduction .name b{font-size: 1.04em; margin-right: 0.5em; color: #222;}
+.teacherIt .introduction .name span{font-size: 0.86em; color: #444;}
+.teacherIt .introduction .itro{font-size: 0.88em;}
+.classIntro{margin-bottom: 2em; z-index: 3;} 
+.classIntro .tit{margin-bottom: 0.3em; margin-top: 0.3em;}
+.adTime{margin:0.5em 0.9em; font-size: 0.88em;}
+.adTime .time{margin-bottom: 0.4em;}
+.adTime .price{margin-bottom: 0.4em;}
+.adTime .price i{font-size: 1.1em; }
+.classIntro .con{margin-bottom:1em; font-size: 0.88em; line-height: 1.7em;}
+.classIntro .con img{display: block; width: 100%;}
+/*股权咨询（表单）*/
+.zxForm {padding-bottom: 4em; margin-bottom: 0;}
+.zxForm h5{padding: 1.2em 0 0.6em 0; font-size: 1.12em; font-weight: normal;}
+.zxfm{margin:0 1em 2em 1em;}
+.zxfm li{margin-bottom: 0.4em;}
+.zxfm li .tt{font-size: 0.88em; color: #888; padding: 0.5em 0;}
+.zxfm li .uinput{border:1px solid #dfdfdf;}
+.zxfm li .uinput input{font-size: 0.88em; color: #222; padding-left: 1em;}
+.zxfm li .uinput textarea{height: 5em; font-size: 0.88em; padding:0.5em; outline: none;}
+.zxForm .btn input{background: #e60012; padding:0.6em 0;}
+
+/*直播路演*/
+
+/*-------------弹出层----------------*/
+.PopUp{ position:fixed; top:50%; left:50%; z-index:99999; display:none; width:17em; height:14em;  margin-left:-8.5em; margin-top: -7em; background:#fff;}
+.contUp{margin:2.8em 1em 2em; font-size: 0.88em; line-height: 1.6em;}
+.PopUp .aa{ position:absolute; top:20px; right:20px; width:18px; height:18px;}
+
+
+/*jQuery 遮罩层*/
+.fullbg { position:fixed; left:0px; top:0px; z-index:111; background-color:#000; opacity:0.4; filter: alpha(opacity=40); -moz-opacity: 0.4;}
+
+
+
+.PopUp5{ position:fixed; bottom:0; left:0; z-index:99999; display:none; width:100%; height: 60%; margin-top: 40%;  background:#fff;}
+.PopUp5 .contUp{margin:1.6em 1em 1.2em; height: 100%; }
+.PopUp5 .PopUp_box{height: 100%;}
+#keyboardDIV{left: 0;}
+.PopUp5 .contUp .title{text-align: center; margin-top: 2em;}
+.pass {	font-size: 40px; text-align: center; width: 45px; height: 45px;	border-left: 1px solid #ddd; border-bottom: 1px solid #ddd;	border-top: 1px solid #ddd;	background: #eee;}
+.pass_right{border-right:1px solid #ddd; background: #eee;}
+.btn_number{width:33%;}
+.btn_next {	margin-top: 30px;width: 100%; height: 40px;	background: #0099FF;}
+.btn_next:hover {background: coral;}
+#password {	font: 2em Verdana, Sans-Serif;	-moz-border-radius: 5px; -webkit-border-radius: 5px;}
+#keyboard {	margin: 0;	padding: 0;	list-style: none;}
+#keyboard li {float: left;	width: 33%;	height: 50px;line-height: 50px;	text-align: center;	background: #fff; font-size: 0.9em;	color: #333; border-top:1px solid #ddd;	border-right:1px solid #ddd;}
+#keyboard li span{font-size: 1.2em;}
+#keyboard .tab {width: 33%;}
+#keyboard .cancle {	width: 33%;}
+#keyboard .delete {	width: 33%;}
+.on {display: none;}
+#keyboard li:hover {position: relative;	top: 1px; left: 1px; border-color: #e5e5e5;	background: #A8A8A8; cursor: pointer;}
+
+@media only screen and (min-width: 310px) and (max-width: 360px) {
+	.PopUp5 .contUp .title{ margin-top: 0em;}
+	#keyboard li {float: left;	width: 33%;	height: 40px;line-height: 40px; font-size: 0.9em;	}
+}
+.newsTitle{height: 2.4em; line-height: 2.4em;}
+.newsTitle em{color: #e60012;}
+
+.classBox .lists li{margin-bottom: 0.5em; border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background: #fff;}
+.classBox .lists .img{width: 7.805em; height: 5.922em; margin-right: 0.8em;}
+.classBox .lists .img img{width: 7.805em; height: 5.922em;}
+.classBox .lists .con h5{font-size: 0.9em; font-weight: normal; }
+.classBox .lists .con .info{font-size: 0.78em; margin-bottom: 0.2em;}
+.classBox .lists .con .info span{font-size: 1.12em;}
+.classBox .lists .con .bmbtn{font-size: 0.8em; position: absolute; bottom:0em; right:0em; width: 4.605em; height: 1.6em; background: #fff;}
+.classBox .lists .con span{font-size: 0.88em;}

@@ -1,0 +1,54 @@
+.ftNav a.current .gqblogo {
+	background: url(../images/gqblogo2.png) no-repeat;
+	background-size: 100% auto
+}
+
+.ftNav a .gqblogo {
+	width: 1rem;
+	height: .6rem
+}
+
+.ftNav a {
+	padding: .2rem
+}
+
+.ftNav a span {
+	font-size: .4rem
+}
+
+.ftNav a em {
+	font-size: .6rem
+}
+
+@font-face {
+	font-family: myiconfont;
+	src: url(http://at.alicdn.com/t/font_8a715g2iatlf2yb9.eot);
+	src: url(http://at.alicdn.com/t/font_8a715g2iatlf2yb9.eot?#iefix)
+		format('embedded-opentype'),
+		url(http://at.alicdn.com/t/font_8a715g2iatlf2yb9.woff) format('woff'),
+		url(http://at.alicdn.com/t/font_8a715g2iatlf2yb9.ttf)
+		format('truetype'),
+		url(http://at.alicdn.com/t/font_8a715g2iatlf2yb9.svg#iconfont)
+		format('svg')
+}
+
+.myiconfont {
+	font-family: myiconfont !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-stroke-width: .2px;
+	-moz-osx-font-smoothing: grayscale
+}
+
+div {
+	font-size: 12px
+}
+
+[data-dpr="2"] div {
+	font-size: 24px
+}
+
+[data-dpr="3"] div {
+	font-size: 36px
+}

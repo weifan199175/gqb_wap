@@ -1,0 +1,1295 @@
+[2016-11-06 09:57:34][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&spbill_create_ip=101.226.125.116&time_expire=20161106100734&time_start=20161106095734&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:57:34][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:57:38][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=wsTROFPMjNCUtb4c&prepay_id=wx2016110609575824b47410b70493480837&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:57:38][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:57:38][debug] string:appId=wx245ceeacd691162a&nonceStr=lxwko0oo5rg3w22sc457s7jk7pid3t9z&package=prepay_id=wx2016110609575824b47410b70493480837&signType=MD5&timeStamp=1478397458&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:57:38][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:58:10][debug] begin notify
+[2016-11-06 09:58:10][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[tl4j4bkqnu2jbml6lhremsgnvv4rjz69]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110657571009]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[CBD22946F61786C58BF8843591E5835D]]></sign>
+<time_end><![CDATA[20161106095829]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068892117114]]></transaction_id>
+</xml>
+[2016-11-06 09:58:10][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106095829&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:58:10][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:58:10][debug] api:Array
+[2016-11-06 09:58:10][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"tl4j4bkqnu2jbml6lhremsgnvv4rjz69","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CBD22946F61786C58BF8843591E5835D","time_end":"20161106095829","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 09:58:10][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=4m8trkscmc1rok7ub4cjfa101nl9njaj&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:58:10][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:58:10][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=UmFSQMKs4pCwtdOB&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106095829&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:58:10][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:58:10][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"UmFSQMKs4pCwtdOB","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"1B9B544342EEC4B511AA5A47C9D71A3B","time_end":"20161106095829","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 09:58:11][debug] Notifyresult:1
+[2016-11-06 09:58:11][debug] handleresult:1
+[2016-11-06 09:58:25][debug] begin notify
+[2016-11-06 09:58:25][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[tl4j4bkqnu2jbml6lhremsgnvv4rjz69]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110657571009]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[CBD22946F61786C58BF8843591E5835D]]></sign>
+<time_end><![CDATA[20161106095829]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068892117114]]></transaction_id>
+</xml>
+[2016-11-06 09:58:25][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106095829&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:58:25][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:58:25][debug] api:Array
+[2016-11-06 09:58:25][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"tl4j4bkqnu2jbml6lhremsgnvv4rjz69","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CBD22946F61786C58BF8843591E5835D","time_end":"20161106095829","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 09:58:25][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=d5xe6jdcdz8l73zn1b5bibl7nbo5awfw&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:58:25][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:58:25][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=kkYSbmmvHj58Iedg&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106095829&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:58:25][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:58:25][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"kkYSbmmvHj58Iedg","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"703D35A8E3894770DF75D0EC25850FD3","time_end":"20161106095829","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 09:58:25][debug] Notifyresult:1
+[2016-11-06 09:58:25][debug] handleresult:1
+[2016-11-06 09:58:42][debug] begin notify
+[2016-11-06 09:58:42][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[tl4j4bkqnu2jbml6lhremsgnvv4rjz69]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110657571009]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[CBD22946F61786C58BF8843591E5835D]]></sign>
+<time_end><![CDATA[20161106095829]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068892117114]]></transaction_id>
+</xml>
+[2016-11-06 09:58:42][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106095829&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:58:42][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:58:42][debug] api:Array
+[2016-11-06 09:58:42][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"tl4j4bkqnu2jbml6lhremsgnvv4rjz69","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CBD22946F61786C58BF8843591E5835D","time_end":"20161106095829","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 09:58:42][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=4xxbejts72i38w6dm50zw8dgbn9sraz5&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:58:42][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:58:43][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=3bgUTYY3ElSvQoS1&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106095829&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:58:43][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:58:43][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"3bgUTYY3ElSvQoS1","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"EE6952538EAF718F3BA54F4E3989DB04","time_end":"20161106095829","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 09:58:43][debug] Notifyresult:1
+[2016-11-06 09:58:43][debug] handleresult:1
+[2016-11-06 09:59:16][debug] begin notify
+[2016-11-06 09:59:16][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[tl4j4bkqnu2jbml6lhremsgnvv4rjz69]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110657571009]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[CBD22946F61786C58BF8843591E5835D]]></sign>
+<time_end><![CDATA[20161106095829]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068892117114]]></transaction_id>
+</xml>
+[2016-11-06 09:59:16][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106095829&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:59:16][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:59:16][debug] api:Array
+[2016-11-06 09:59:16][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"tl4j4bkqnu2jbml6lhremsgnvv4rjz69","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CBD22946F61786C58BF8843591E5835D","time_end":"20161106095829","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 09:59:16][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=fih904gcyz29wdzjmrhvcfb6bvkrfxcy&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:59:16][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:59:17][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=CrQFTeHWQiqqd8Ul&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106095829&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 09:59:17][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 09:59:17][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"CrQFTeHWQiqqd8Ul","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"B893B893335E94AB67B166F763830163","time_end":"20161106095829","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 09:59:17][debug] Notifyresult:1
+[2016-11-06 09:59:17][debug] handleresult:1
+[2016-11-06 10:02:20][debug] begin notify
+[2016-11-06 10:02:20][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[tl4j4bkqnu2jbml6lhremsgnvv4rjz69]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110657571009]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[CBD22946F61786C58BF8843591E5835D]]></sign>
+<time_end><![CDATA[20161106095829]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068892117114]]></transaction_id>
+</xml>
+[2016-11-06 10:02:20][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106095829&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:02:20][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:02:20][debug] api:Array
+[2016-11-06 10:02:20][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"tl4j4bkqnu2jbml6lhremsgnvv4rjz69","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CBD22946F61786C58BF8843591E5835D","time_end":"20161106095829","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 10:02:20][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=cts3ygb9d3cg2w966sn2kiwldmxibxuc&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:02:20][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:02:22][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=9CDOGuwOFtsu6qLH&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106095829&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:02:22][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:02:22][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"9CDOGuwOFtsu6qLH","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"BC5FF3DC2232AB462F52308557D071A1","time_end":"20161106095829","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 10:02:22][debug] Notifyresult:1
+[2016-11-06 10:02:22][debug] handleresult:1
+[2016-11-06 10:11:19][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=17u5558rztyapxuqsta7yx8o3gjo1020&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110652535651&spbill_create_ip=101.226.125.116&time_expire=20161106102119&time_start=20161106101119&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:11:19][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:11:32][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=ru603ij9fgd6pum6nzwzo908apj541f2&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110652535651&spbill_create_ip=121.60.29.222&time_expire=20161106102132&time_start=20161106101132&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:11:32][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:12:12][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=fvz66cvozywu6uq24oa8gz063p6oz4wz&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657575249&spbill_create_ip=101.226.125.116&time_expire=20161106102212&time_start=20161106101212&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:12:12][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:12:13][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=b5wQjkLWxVntpa8L&prepay_id=wx20161106101233d01cd04ef90622071781&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:12:13][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:12:13][debug] string:appId=wx245ceeacd691162a&nonceStr=v3393hk1b3yzaws0lk6ui7wl9qa2ki7n&package=prepay_id=wx20161106101233d01cd04ef90622071781&signType=MD5&timeStamp=1478398333&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:12:13][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:22:02][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=yz2jdgqhom81bb1r430tk0c9k61tzkzi&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110655499749&spbill_create_ip=140.207.54.140&time_expire=20161106103202&time_start=20161106102202&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:22:02][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:22:15][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=7wkgcun65920a0islnt7bhicbcbjrwz6&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110655499749&spbill_create_ip=121.60.29.222&time_expire=20161106103215&time_start=20161106102215&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:22:15][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:23:27][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&spbill_create_ip=101.226.125.116&time_expire=20161106103327&time_start=20161106102327&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:23:27][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:23:27][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=nK2dFIwPuFo9II1a&prepay_id=wx201611061023477d9df666f20116457785&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:23:27][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:23:27][debug] string:appId=wx245ceeacd691162a&nonceStr=ac9inx5he2k6gq2khc7nssvifcv2vfk0&package=prepay_id=wx201611061023477d9df666f20116457785&signType=MD5&timeStamp=1478399007&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:23:27][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:23:43][debug] begin notify
+[2016-11-06 10:23:43][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[5n0si6cfjqnvomuwtih8cmle981zm4ov]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110699561024]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[641C7BBDF39A15BA95E40CC4A120F22B]]></sign>
+<time_end><![CDATA[20161106102402]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068895305071]]></transaction_id>
+</xml>
+[2016-11-06 10:23:43][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106102402&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:23:43][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:23:43][debug] api:Array
+[2016-11-06 10:23:43][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"5n0si6cfjqnvomuwtih8cmle981zm4ov","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","sign":"641C7BBDF39A15BA95E40CC4A120F22B","time_end":"20161106102402","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:23:43][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=joab1awchw01eft7pjui1nn8yhmvoob6&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:23:43][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:23:43][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=Gg5fHt2NZB2QUK66&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106102402&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:23:43][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:23:43][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"Gg5fHt2NZB2QUK66","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"B3A5D17A216982BC44E2224ACA61C4B9","time_end":"20161106102402","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:23:43][debug] Notifyresult:1
+[2016-11-06 10:23:43][debug] handleresult:1
+[2016-11-06 10:23:54][debug] begin notify
+[2016-11-06 10:23:54][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[5n0si6cfjqnvomuwtih8cmle981zm4ov]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110699561024]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[641C7BBDF39A15BA95E40CC4A120F22B]]></sign>
+<time_end><![CDATA[20161106102402]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068895305071]]></transaction_id>
+</xml>
+[2016-11-06 10:23:54][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106102402&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:23:54][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:23:54][debug] api:Array
+[2016-11-06 10:23:54][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"5n0si6cfjqnvomuwtih8cmle981zm4ov","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","sign":"641C7BBDF39A15BA95E40CC4A120F22B","time_end":"20161106102402","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:23:54][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=p01trrisk1pn6lux711spk484he89v3r&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:23:54][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:23:55][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=JD9ByGWFWNnzdONq&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106102402&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:23:55][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:23:55][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"JD9ByGWFWNnzdONq","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"D264F014BCAAF308EE4782DEB5DB1F73","time_end":"20161106102402","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:23:55][debug] Notifyresult:1
+[2016-11-06 10:23:55][debug] handleresult:1
+[2016-11-06 10:24:12][debug] begin notify
+[2016-11-06 10:24:12][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[5n0si6cfjqnvomuwtih8cmle981zm4ov]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110699561024]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[641C7BBDF39A15BA95E40CC4A120F22B]]></sign>
+<time_end><![CDATA[20161106102402]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068895305071]]></transaction_id>
+</xml>
+[2016-11-06 10:24:12][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106102402&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:24:12][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:24:12][debug] api:Array
+[2016-11-06 10:24:12][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"5n0si6cfjqnvomuwtih8cmle981zm4ov","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","sign":"641C7BBDF39A15BA95E40CC4A120F22B","time_end":"20161106102402","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:24:12][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=2emmksasj7sum3i9yj2cserwats9aflt&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:24:12][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:24:12][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=Ol4HKjVN2FPL25qh&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106102402&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:24:12][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:24:12][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"Ol4HKjVN2FPL25qh","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"3848AF3B45170548D0ED260CC6D1126A","time_end":"20161106102402","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:24:12][debug] Notifyresult:1
+[2016-11-06 10:24:12][debug] handleresult:1
+[2016-11-06 10:24:44][debug] begin notify
+[2016-11-06 10:24:45][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[5n0si6cfjqnvomuwtih8cmle981zm4ov]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110699561024]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[641C7BBDF39A15BA95E40CC4A120F22B]]></sign>
+<time_end><![CDATA[20161106102402]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068895305071]]></transaction_id>
+</xml>
+[2016-11-06 10:24:45][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106102402&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:24:45][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:24:45][debug] api:Array
+[2016-11-06 10:24:45][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"5n0si6cfjqnvomuwtih8cmle981zm4ov","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","sign":"641C7BBDF39A15BA95E40CC4A120F22B","time_end":"20161106102402","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:24:45][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=obv8twpyelv4sx7z9lpmssm6gzeq2po1&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:24:45][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:24:49][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=g1QmrlzHMVFrcAWW&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106102402&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:24:49][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:24:49][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"g1QmrlzHMVFrcAWW","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"F2F7674A6014C0AD74FF170C13460C1B","time_end":"20161106102402","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:24:49][debug] Notifyresult:1
+[2016-11-06 10:24:49][debug] handleresult:1
+[2016-11-06 10:27:50][debug] begin notify
+[2016-11-06 10:27:50][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[5n0si6cfjqnvomuwtih8cmle981zm4ov]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110699561024]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[641C7BBDF39A15BA95E40CC4A120F22B]]></sign>
+<time_end><![CDATA[20161106102402]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068895305071]]></transaction_id>
+</xml>
+[2016-11-06 10:27:50][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106102402&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:27:50][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:27:50][debug] api:Array
+[2016-11-06 10:27:50][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"5n0si6cfjqnvomuwtih8cmle981zm4ov","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","sign":"641C7BBDF39A15BA95E40CC4A120F22B","time_end":"20161106102402","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:27:50][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=z5il0rifs58zer1wn73dqasobhk65k8q&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:27:50][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:32:26][debug] begin notify
+[2016-11-06 10:32:26][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[tl4j4bkqnu2jbml6lhremsgnvv4rjz69]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110657571009]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[CBD22946F61786C58BF8843591E5835D]]></sign>
+<time_end><![CDATA[20161106095829]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068892117114]]></transaction_id>
+</xml>
+[2016-11-06 10:32:26][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106095829&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:32:26][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:32:26][debug] api:Array
+[2016-11-06 10:32:26][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"tl4j4bkqnu2jbml6lhremsgnvv4rjz69","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CBD22946F61786C58BF8843591E5835D","time_end":"20161106095829","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 10:32:26][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=140cibaydizg8e79nnktsmdjf8y65irc&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:32:26][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:32:27][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=WXebEqPLgZHSmkL4&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106095829&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:32:27][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:32:27][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"WXebEqPLgZHSmkL4","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"1C1A47739F685B0B1944DADF4C418F54","time_end":"20161106095829","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 10:32:27][debug] Notifyresult:1
+[2016-11-06 10:32:27][debug] handleresult:1
+[2016-11-06 10:40:19][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=y1xw06ekwfg256zst0tj9oqbanz5d97w&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110651101559&spbill_create_ip=121.60.29.222&time_expire=20161106105019&time_start=20161106104019&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:40:19][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:40:20][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=GVVzCH5SThOd4BGu&prepay_id=wx20161106104040943ef1786d0485730831&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:40:20][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:40:20][debug] string:appId=wx245ceeacd691162a&nonceStr=07sxq4yqvs30jhunou559ypjqywo52g4&package=prepay_id=wx20161106104040943ef1786d0485730831&signType=MD5&timeStamp=1478400020&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:40:20][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:40:21][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=c5j3ki4x1d10ka4p9nvnzqtzyfr0x3up&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110651101559&spbill_create_ip=117.185.24.151&time_expire=20161106105021&time_start=20161106104021&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:40:21][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:40:54][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=grcqyqzb67uji8l2ynn3r0365jn4x6it&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110698495052&spbill_create_ip=101.226.125.116&time_expire=20161106105054&time_start=20161106104054&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:40:54][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:40:54][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=sbgxyAr2ER2uK91e&prepay_id=wx20161106104115c0f0e3d1610410029125&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:40:54][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:40:54][debug] string:appId=wx245ceeacd691162a&nonceStr=ncgorhhv54yrwm96r9xl3agv20x0196n&package=prepay_id=wx20161106104115c0f0e3d1610410029125&signType=MD5&timeStamp=1478400054&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:40:54][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:57:55][debug] begin notify
+[2016-11-06 10:57:56][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[5n0si6cfjqnvomuwtih8cmle981zm4ov]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110699561024]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[641C7BBDF39A15BA95E40CC4A120F22B]]></sign>
+<time_end><![CDATA[20161106102402]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068895305071]]></transaction_id>
+</xml>
+[2016-11-06 10:57:56][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106102402&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:57:56][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:57:56][debug] api:Array
+[2016-11-06 10:57:56][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"5n0si6cfjqnvomuwtih8cmle981zm4ov","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","sign":"641C7BBDF39A15BA95E40CC4A120F22B","time_end":"20161106102402","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:57:56][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=kvtpqj4mopicm4v706ghlmfhps04c4qo&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:57:56][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:57:58][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=21jLKvR4BtmYXHiE&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106102402&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 10:57:58][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 10:57:58][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"21jLKvR4BtmYXHiE","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"1715D1AD679D186F348D505734A4CD59","time_end":"20161106102402","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 10:57:58][debug] Notifyresult:1
+[2016-11-06 10:57:58][debug] handleresult:1
+[2016-11-06 11:02:30][debug] begin notify
+[2016-11-06 11:02:30][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[tl4j4bkqnu2jbml6lhremsgnvv4rjz69]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110657571009]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[CBD22946F61786C58BF8843591E5835D]]></sign>
+<time_end><![CDATA[20161106095829]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068892117114]]></transaction_id>
+</xml>
+[2016-11-06 11:02:30][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106095829&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 11:02:30][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 11:02:30][debug] api:Array
+[2016-11-06 11:02:30][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"tl4j4bkqnu2jbml6lhremsgnvv4rjz69","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CBD22946F61786C58BF8843591E5835D","time_end":"20161106095829","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 11:02:30][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=cnp3v1znongowr539oo6ybgxowsu2d3p&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 11:02:30][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 11:28:02][debug] begin notify
+[2016-11-06 11:28:03][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[5n0si6cfjqnvomuwtih8cmle981zm4ov]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110699561024]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[641C7BBDF39A15BA95E40CC4A120F22B]]></sign>
+<time_end><![CDATA[20161106102402]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068895305071]]></transaction_id>
+</xml>
+[2016-11-06 11:28:03][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106102402&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 11:28:03][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 11:28:03][debug] api:Array
+[2016-11-06 11:28:03][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"5n0si6cfjqnvomuwtih8cmle981zm4ov","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","sign":"641C7BBDF39A15BA95E40CC4A120F22B","time_end":"20161106102402","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 11:28:03][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=wmndcy4p3p4ccts3j4vt82mob9h8f12f&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 11:28:03][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 11:32:35][debug] begin notify
+[2016-11-06 11:32:35][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[tl4j4bkqnu2jbml6lhremsgnvv4rjz69]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110657571009]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[CBD22946F61786C58BF8843591E5835D]]></sign>
+<time_end><![CDATA[20161106095829]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068892117114]]></transaction_id>
+</xml>
+[2016-11-06 11:32:35][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106095829&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 11:32:35][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 11:32:35][debug] api:Array
+[2016-11-06 11:32:35][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"tl4j4bkqnu2jbml6lhremsgnvv4rjz69","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CBD22946F61786C58BF8843591E5835D","time_end":"20161106095829","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 11:32:35][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=0blpvabwoow36f01ishe4s4u9wdauhcb&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 11:32:35][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 11:32:36][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=u1uKi3xIAdsoiEmP&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106095829&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 11:32:36][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 11:32:36][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"u1uKi3xIAdsoiEmP","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"625E41138EBD753B480DBCD007B2B6BF","time_end":"20161106095829","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 11:32:36][debug] Notifyresult:1
+[2016-11-06 11:32:36][debug] handleresult:1
+[2016-11-06 11:58:09][debug] begin notify
+[2016-11-06 11:58:09][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[5n0si6cfjqnvomuwtih8cmle981zm4ov]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110699561024]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[641C7BBDF39A15BA95E40CC4A120F22B]]></sign>
+<time_end><![CDATA[20161106102402]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068895305071]]></transaction_id>
+</xml>
+[2016-11-06 11:58:09][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106102402&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 11:58:09][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 11:58:09][debug] api:Array
+[2016-11-06 11:58:09][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"5n0si6cfjqnvomuwtih8cmle981zm4ov","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","sign":"641C7BBDF39A15BA95E40CC4A120F22B","time_end":"20161106102402","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 11:58:09][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=5l8g1e3dqnl2saedu7egogvvritdjrra&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 11:58:09][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 12:02:38][debug] begin notify
+[2016-11-06 12:02:38][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[tl4j4bkqnu2jbml6lhremsgnvv4rjz69]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110657571009]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[CBD22946F61786C58BF8843591E5835D]]></sign>
+<time_end><![CDATA[20161106095829]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068892117114]]></transaction_id>
+</xml>
+[2016-11-06 12:02:38][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106095829&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 12:02:38][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 12:02:38][debug] api:Array
+[2016-11-06 12:02:38][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"tl4j4bkqnu2jbml6lhremsgnvv4rjz69","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CBD22946F61786C58BF8843591E5835D","time_end":"20161106095829","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 12:02:38][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=7ghonyqkq6twggj9wjfzu7puhlel2i5y&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 12:02:38][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 12:02:38][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=kP1pEqGzIZDj4ujA&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106095829&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 12:02:38][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 12:02:38][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"kP1pEqGzIZDj4ujA","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"ECC78F5A019896E6346C041FDF3E1199","time_end":"20161106095829","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 12:02:38][debug] Notifyresult:1
+[2016-11-06 12:02:38][debug] handleresult:1
+[2016-11-06 12:28:16][debug] begin notify
+[2016-11-06 12:28:16][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[5n0si6cfjqnvomuwtih8cmle981zm4ov]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110699561024]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[641C7BBDF39A15BA95E40CC4A120F22B]]></sign>
+<time_end><![CDATA[20161106102402]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068895305071]]></transaction_id>
+</xml>
+[2016-11-06 12:28:16][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106102402&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 12:28:16][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 12:28:16][debug] api:Array
+[2016-11-06 12:28:16][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"5n0si6cfjqnvomuwtih8cmle981zm4ov","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","sign":"641C7BBDF39A15BA95E40CC4A120F22B","time_end":"20161106102402","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 12:28:16][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=f9t2nfvulomol3pl49188lz1o0vchud2&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 12:28:16][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 12:28:16][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=egB0KTXpZYfqeKj5&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106102402&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 12:28:16][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 12:28:16][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"egB0KTXpZYfqeKj5","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"778B6FC7879E20FBFA482B962F64587E","time_end":"20161106102402","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 12:28:16][debug] Notifyresult:1
+[2016-11-06 12:28:16][debug] handleresult:1
+[2016-11-06 13:02:42][debug] begin notify
+[2016-11-06 13:02:42][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[tl4j4bkqnu2jbml6lhremsgnvv4rjz69]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110657571009]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[CBD22946F61786C58BF8843591E5835D]]></sign>
+<time_end><![CDATA[20161106095829]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068892117114]]></transaction_id>
+</xml>
+[2016-11-06 13:02:42][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=tl4j4bkqnu2jbml6lhremsgnvv4rjz69&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657571009&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106095829&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 13:02:42][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 13:02:42][debug] api:Array
+[2016-11-06 13:02:42][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"tl4j4bkqnu2jbml6lhremsgnvv4rjz69","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110657571009","result_code":"SUCCESS","return_code":"SUCCESS","sign":"CBD22946F61786C58BF8843591E5835D","time_end":"20161106095829","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068892117114"}
+[2016-11-06 13:02:42][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=crqf3afvkkh0czvtbn4724c37qi5kmk0&transaction_id=4006802001201611068892117114&key=bogleunionL18899765853bogleunion
+[2016-11-06 13:02:42][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 13:28:19][debug] begin notify
+[2016-11-06 13:28:19][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[5n0si6cfjqnvomuwtih8cmle981zm4ov]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110699561024]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[641C7BBDF39A15BA95E40CC4A120F22B]]></sign>
+<time_end><![CDATA[20161106102402]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068895305071]]></transaction_id>
+</xml>
+[2016-11-06 13:28:19][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=5n0si6cfjqnvomuwtih8cmle981zm4ov&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699561024&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106102402&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 13:28:19][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 13:28:19][debug] api:Array
+[2016-11-06 13:28:19][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"5n0si6cfjqnvomuwtih8cmle981zm4ov","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110699561024","result_code":"SUCCESS","return_code":"SUCCESS","sign":"641C7BBDF39A15BA95E40CC4A120F22B","time_end":"20161106102402","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068895305071"}
+[2016-11-06 13:28:19][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=h21muwphvneabj5lf7btdz6df9twomtv&transaction_id=4006802001201611068895305071&key=bogleunionL18899765853bogleunion
+[2016-11-06 13:28:19][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 16:53:15][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=f9lj9hldcyqx84yulx7nvbaeil82esfo&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657494949&spbill_create_ip=101.226.125.116&time_expire=20161106170315&time_start=20161106165315&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 16:53:15][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 16:53:15][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=rTTBfHFqXFEnbEHJ&prepay_id=wx20161106165337fd4f2d181f0706470496&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 16:53:15][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 16:53:15][debug] string:appId=wx245ceeacd691162a&nonceStr=fy9nw148nl8iwazdsr1o45s1g1tnahav&package=prepay_id=wx20161106165337fd4f2d181f0706470496&signType=MD5&timeStamp=1478422395&key=bogleunionL18899765853bogleunion
+[2016-11-06 16:53:15][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 16:55:57][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=6r0e00zyctk6msm5ukya0lbskyyoikba&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110655535348&spbill_create_ip=101.226.125.116&time_expire=20161106170557&time_start=20161106165557&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 16:55:57][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 16:55:59][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=wuYKDale6yRWVLG2&prepay_id=wx20161106165621c152cc351f0105574771&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 16:55:59][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 16:55:59][debug] string:appId=wx245ceeacd691162a&nonceStr=0ex9kki0ptvep02t3kpymhygomed8smx&package=prepay_id=wx20161106165621c152cc351f0105574771&signType=MD5&timeStamp=1478422559&key=bogleunionL18899765853bogleunion
+[2016-11-06 16:55:59][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:23:12][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=rihfsgqecddm6v5gav80z5ijny5e96h7&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610153100&spbill_create_ip=101.226.125.116&time_expire=20161106173312&time_start=20161106172312&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:23:12][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:23:25][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=b4rslukhdpiun3z7cbair2vntddcytt8&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110610153100&spbill_create_ip=121.60.29.222&time_expire=20161106173325&time_start=20161106172325&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:23:25][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:26:59][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=9nn3hr18svxymipuo82ffdn49239qknn&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110649495310&spbill_create_ip=101.226.125.116&time_expire=20161106173659&time_start=20161106172659&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:26:59][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:27:00][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=6L4TKFVbh72VJNhv&prepay_id=wx201611061727229680c59e7e0687366405&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:27:00][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:27:58][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=3x89v69r6m1s3ui0prsnj3uyuurmfgva&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110698101981&spbill_create_ip=101.226.125.116&time_expire=20161106173758&time_start=20161106172758&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:27:58][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:27:59][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=WtVNW3rOD9qeNlJp&prepay_id=wx20161106172821a273d3ac220270736894&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:27:59][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:27:59][debug] string:appId=wx245ceeacd691162a&nonceStr=yh3hiu4dkmif41um43ju0ovfn25kv65h&package=prepay_id=wx20161106172821a273d3ac220270736894&signType=MD5&timeStamp=1478424479&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:27:59][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:39:56][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=av9fdf3alsmh2j219guac75k272zqb0h&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110697531015&spbill_create_ip=101.226.125.116&time_expire=20161106174956&time_start=20161106173956&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:39:56][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:40:29][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=3jl27izfbq4do07jigqwh4lt19oq4of5&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110698481015&spbill_create_ip=101.226.125.116&time_expire=20161106175029&time_start=20161106174029&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:40:29][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:40:29][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=ufaiPMfoXuiZKtVT&prepay_id=wx20161106174051cd888ae8160462732634&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:40:29][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:40:29][debug] string:appId=wx245ceeacd691162a&nonceStr=kgn07vqvsa5j17xyow20waybh8dc5lam&package=prepay_id=wx20161106174051cd888ae8160462732634&signType=MD5&timeStamp=1478425229&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:40:29][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:41:35][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=hps2fos759dlqi297t9a8e4ztf6jvm59&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610052505&spbill_create_ip=117.185.27.99&time_expire=20161106175135&time_start=20161106174135&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:41:35][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:41:36][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=OHtUBn1YjFJJVFAN&prepay_id=wx2016110617415803c7e97a320362667247&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:41:36][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:41:36][debug] string:appId=wx245ceeacd691162a&nonceStr=vjh1m87nuyyd7rs12asjjtmfzg689lpk&package=prepay_id=wx2016110617415803c7e97a320362667247&signType=MD5&timeStamp=1478425296&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:41:36][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:44:54][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=quwzebc0ixgiz7x7ow8j4ynbl996hi02&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.php&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610156505&spbill_create_ip=101.226.125.116&time_expire=20161106175454&time_start=20161106174454&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:44:54][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:45:03][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=zfgfpj034car0gmwe2azby90p7ym0jz9&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.php&out_trade_no=2016110610156505&spbill_create_ip=121.60.29.222&time_expire=20161106175503&time_start=20161106174503&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:45:03][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:48:37][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=qkspog2y46unfhxsknqp20tuy7vzvegp&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110650489750&spbill_create_ip=101.226.125.116&time_expire=20161106175837&time_start=20161106174837&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:48:37][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:50:50][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=vo0gs5qv80i23ah9c8xv2k9byzkcabs8&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110655525150&spbill_create_ip=101.226.125.116&time_expire=20161106180050&time_start=20161106175050&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:50:50][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:50:50][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=uJQahnwbPZXSFTeU&prepay_id=wx20161106175112f8838bc2290546997629&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:50:50][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 17:50:50][debug] string:appId=wx245ceeacd691162a&nonceStr=f5z1lvuxn7nrgr88et5p3y16mxxozl8v&package=prepay_id=wx20161106175112f8838bc2290546997629&signType=MD5&timeStamp=1478425850&key=bogleunionL18899765853bogleunion
+[2016-11-06 17:50:50][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:00:10][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=xwqhgqq5c49ik7qcgz91d2e0orcootyf&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110655511004&spbill_create_ip=101.226.125.116&time_expire=20161106181010&time_start=20161106180010&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:00:10][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:00:22][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=hxjeub68xat1ycjlyq2qlnwmqr1xmq9k&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110655511004&spbill_create_ip=121.60.29.222&time_expire=20161106181022&time_start=20161106180022&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:00:22][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:04:00][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=szx7ock999g0vx57kvvci7p7dff446kc&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610056979&spbill_create_ip=101.226.125.116&time_expire=20161106181400&time_start=20161106180400&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:04:00][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:04:12][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=zv58so90pg65u4ntuxf9n48hrbqsm7y9&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110610056979&spbill_create_ip=121.60.29.222&time_expire=20161106181412&time_start=20161106180412&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:04:12][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:06:33][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=kgerwv95c1rh9q1uj0h1kl71312hza44&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110655491005&spbill_create_ip=101.226.125.116&time_expire=20161106181633&time_start=20161106180633&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:06:33][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:09:41][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=73yqf5kgkqrtkvwyb142z7d9m1tr6106&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110649529751&spbill_create_ip=101.226.125.116&time_expire=20161106181941&time_start=20161106180941&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:09:41][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:09:54][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=fdueq19ppzrfvz14kfvm10rvo760oaf4&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110649529751&spbill_create_ip=121.60.29.222&time_expire=20161106181954&time_start=20161106180954&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:09:54][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:10:58][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=l4ruoigs4lk2x8t9mvn7klq0v39px819&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110648505152&spbill_create_ip=101.226.125.116&time_expire=20161106182058&time_start=20161106181058&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:10:58][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:11:11][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=etxfw20glj7vbiuu00vhdfw16t5mqojs&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110648505152&spbill_create_ip=121.60.29.222&time_expire=20161106182111&time_start=20161106181111&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:11:11][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:18:35][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=w2u2t0g5vnbt4ccwyxn44ibuc7jmv0rq&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110656574850&spbill_create_ip=101.226.125.116&time_expire=20161106182835&time_start=20161106181835&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:18:35][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:18:48][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=09li1xdu0mgu5kmqg2dzk9ute1dqpid2&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110656574850&spbill_create_ip=121.60.29.222&time_expire=20161106182848&time_start=20161106181848&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:18:48][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:20:15][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=2gup921vzix10ybvlzo6iv9eb6hj20x5&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110699545349&spbill_create_ip=101.226.125.116&time_expire=20161106183015&time_start=20161106182015&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:20:15][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:20:28][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=mmdj06rbr5usdrcmrqommbnp4imyu0v5&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110699545349&spbill_create_ip=117.136.81.223&time_expire=20161106183028&time_start=20161106182028&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:20:28][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:23:26][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=jxj3zwo8ye49vfeumfnblxzav6f1ubi4&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110698545148&spbill_create_ip=101.226.125.116&time_expire=20161106183326&time_start=20161106182326&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:23:26][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:23:39][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=qt71jbj4duwdo2sw2w8ra83g5par56ix&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110698545148&spbill_create_ip=117.136.81.223&time_expire=20161106183339&time_start=20161106182339&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:23:39][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:29:48][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=4ulnv0bhgd2e967is4fnn6f230chqsd8&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110657529748&spbill_create_ip=140.207.54.140&time_expire=20161106183948&time_start=20161106182948&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:29:48][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:30:01][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=k91g96nnuvz7gda76r60tjls0msft3lb&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&out_trade_no=2016110657529748&spbill_create_ip=121.60.29.222&time_expire=20161106184001&time_start=20161106183001&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:30:01][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:31:50][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&spbill_create_ip=121.60.29.222&time_expire=20161106184150&time_start=20161106183150&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:31:50][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:31:50][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=3M87hXJ2D73OOxZk&prepay_id=wx20161106183213f82486a3740103641425&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:31:50][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:31:50][debug] string:appId=wx245ceeacd691162a&nonceStr=odgs1q6yhhba4wf14zrik6optetnq0vg&package=prepay_id=wx20161106183213f82486a3740103641425&signType=MD5&timeStamp=1478428310&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:31:50][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:03][debug] begin notify
+[2016-11-06 18:32:03][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 18:32:03][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:03][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:03][debug] api:Array
+[2016-11-06 18:32:03][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 18:32:03][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=7jfebfcyswql4w00zf59wer0dszxx1nz&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:03][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:05][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=N8Ejkb1jAANjcvny&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106183225&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:05][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:05][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"N8Ejkb1jAANjcvny","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"3E53115145B168617FBDA1B71247A670","time_end":"20161106183225","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 18:32:05][debug] Notifyresult:1
+[2016-11-06 18:32:05][debug] handleresult:1
+[2016-11-06 18:32:18][debug] begin notify
+[2016-11-06 18:32:18][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 18:32:18][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:18][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:18][debug] api:Array
+[2016-11-06 18:32:18][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 18:32:18][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=i40iuxcozpbjwq0mwebp5js2n6cd8vbd&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:18][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:18][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=uJX6Q3smFiOQdA3d&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106183225&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:18][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:18][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"uJX6Q3smFiOQdA3d","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"A955F0E66AD8996D4DBFD36A942BAF12","time_end":"20161106183225","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 18:32:18][debug] Notifyresult:1
+[2016-11-06 18:32:18][debug] handleresult:1
+[2016-11-06 18:32:36][debug] begin notify
+[2016-11-06 18:32:36][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 18:32:36][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:36][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:36][debug] api:Array
+[2016-11-06 18:32:36][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 18:32:36][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=4qvp25nssl1zbft9fgi2n3v13ecqpixa&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:36][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:37][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=qDfierrqqzqyQGrx&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106183225&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:37][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:37][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"qDfierrqqzqyQGrx","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"93D93FFD13A689E948A308E843A7AA41","time_end":"20161106183225","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 18:32:37][debug] Notifyresult:1
+[2016-11-06 18:32:37][debug] handleresult:1
+[2016-11-06 18:32:51][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=t42n7ef78wpmfob88zc61edb4v0tgbdt&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110648101491&spbill_create_ip=101.226.125.116&time_expire=20161106184251&time_start=20161106183251&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:51][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:51][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=LzGE3e87Lr6Ou3wL&prepay_id=wx201611061833144518f3375a0728784911&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:51][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:32:51][debug] string:appId=wx245ceeacd691162a&nonceStr=nc5mndglms0b3h0mfcsjleafr4ouz8y1&package=prepay_id=wx201611061833144518f3375a0728784911&signType=MD5&timeStamp=1478428371&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:32:51][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:33:10][debug] begin notify
+[2016-11-06 18:33:10][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 18:33:10][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:33:10][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:33:10][debug] api:Array
+[2016-11-06 18:33:10][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 18:33:10][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=97pe7l15svokb8uhu61sd5pd3f9rdwfh&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:33:10][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:33:10][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=c6Ip8Qa3vPTx98AT&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106183225&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:33:10][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:33:10][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"c6Ip8Qa3vPTx98AT","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"DD5B0920FF7B7FCB733142369B222E57","time_end":"20161106183225","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 18:33:10][debug] Notifyresult:1
+[2016-11-06 18:33:10][debug] handleresult:1
+[2016-11-06 18:33:34][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=2mk9qia5n57x9ug92s9w01kdff3czmx4&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110698555153&spbill_create_ip=117.185.24.151&time_expire=20161106184334&time_start=20161106183334&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:33:34][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:33:34][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=ByEdpGGB9e1132YH&prepay_id=wx20161106183356fa46fc7df80712540110&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:33:34][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:33:34][debug] string:appId=wx245ceeacd691162a&nonceStr=srbqe8sy6wvey59goskf1fnvx78pk3zp&package=prepay_id=wx20161106183356fa46fc7df80712540110&signType=MD5&timeStamp=1478428414&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:33:34][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:33:52][debug] string:appid=wx245ceeacd691162a&attach=1&body=股权帮&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&notify_url=http://test3.jbr.net.cn/api.php/PayNotify/webchatpay_notify.html&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&spbill_create_ip=101.226.125.116&time_expire=20161106184352&time_start=20161106183352&total_fee=1&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:33:52][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:33:52][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=4eFXka0bZLBFMdbq&prepay_id=wx20161106183415c19027348b0157562198&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&trade_type=JSAPI&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:33:52][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:33:52][debug] string:appId=wx245ceeacd691162a&nonceStr=e0fb6abmynquborbodlazow7y8wlvi1o&package=prepay_id=wx20161106183415c19027348b0157562198&signType=MD5&timeStamp=1478428432&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:33:52][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:34:14][debug] begin notify
+[2016-11-06 18:34:14][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[x4bqas2mkhxlvp3wtvzskhw649zm5bj9]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110610054515]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[C9C72D86D48B74CA4875FDCA633C2BB2]]></sign>
+<time_end><![CDATA[20161106183435]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068945336938]]></transaction_id>
+</xml>
+[2016-11-06 18:34:14][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183435&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:34:14][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:34:14][debug] api:Array
+[2016-11-06 18:34:14][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"x4bqas2mkhxlvp3wtvzskhw649zm5bj9","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C9C72D86D48B74CA4875FDCA633C2BB2","time_end":"20161106183435","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 18:34:14][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=xo5d3cp98pkd0z6d8ba3epwc5lnr50d9&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:34:14][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:34:31][debug] begin notify
+[2016-11-06 18:34:31][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[x4bqas2mkhxlvp3wtvzskhw649zm5bj9]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110610054515]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[C9C72D86D48B74CA4875FDCA633C2BB2]]></sign>
+<time_end><![CDATA[20161106183435]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068945336938]]></transaction_id>
+</xml>
+[2016-11-06 18:34:31][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183435&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:34:31][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:34:31][debug] api:Array
+[2016-11-06 18:34:31][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"x4bqas2mkhxlvp3wtvzskhw649zm5bj9","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C9C72D86D48B74CA4875FDCA633C2BB2","time_end":"20161106183435","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 18:34:31][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=j14qpjrb8qllej9s2q66f2iw9w46lr47&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:34:31][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:34:52][debug] begin notify
+[2016-11-06 18:34:52][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[x4bqas2mkhxlvp3wtvzskhw649zm5bj9]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110610054515]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[C9C72D86D48B74CA4875FDCA633C2BB2]]></sign>
+<time_end><![CDATA[20161106183435]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068945336938]]></transaction_id>
+</xml>
+[2016-11-06 18:34:52][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183435&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:34:52][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:34:52][debug] api:Array
+[2016-11-06 18:34:52][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"x4bqas2mkhxlvp3wtvzskhw649zm5bj9","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C9C72D86D48B74CA4875FDCA633C2BB2","time_end":"20161106183435","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 18:34:52][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=iqtz5gojp8nae4al9ebpue9cqfv8xdf4&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:34:52][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:34:56][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=9KkYVGXnZeCrf1GY&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106183435&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:34:56][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:34:56][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"9KkYVGXnZeCrf1GY","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"D36BE8C8C1F390DBF0A6450F311BDDEE","time_end":"20161106183435","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 18:34:56][debug] Notifyresult:1
+[2016-11-06 18:34:56][debug] handleresult:1
+[2016-11-06 18:35:28][debug] begin notify
+[2016-11-06 18:35:28][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[x4bqas2mkhxlvp3wtvzskhw649zm5bj9]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110610054515]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[C9C72D86D48B74CA4875FDCA633C2BB2]]></sign>
+<time_end><![CDATA[20161106183435]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068945336938]]></transaction_id>
+</xml>
+[2016-11-06 18:35:28][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183435&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:35:28][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:35:28][debug] api:Array
+[2016-11-06 18:35:28][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"x4bqas2mkhxlvp3wtvzskhw649zm5bj9","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C9C72D86D48B74CA4875FDCA633C2BB2","time_end":"20161106183435","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 18:35:28][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=99qbnrjfx8ee4p1cq6gitsncwt4jkgy9&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:35:28][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:35:29][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=jfAupVck6Q1WRIlh&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106183435&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:35:29][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:35:29][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"jfAupVck6Q1WRIlh","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"B8C6875C938F7389FFE8A9B8C0B1ED70","time_end":"20161106183435","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 18:35:29][debug] Notifyresult:1
+[2016-11-06 18:35:29][debug] handleresult:1
+[2016-11-06 18:36:13][debug] begin notify
+[2016-11-06 18:36:13][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 18:36:13][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:36:13][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:36:13][debug] api:Array
+[2016-11-06 18:36:13][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 18:36:13][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=hmfu206886pc7y83mziw8s8wrya9t50h&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:36:13][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:36:14][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=WHQXWWXt7IpdaNbF&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106183225&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:36:14][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:36:14][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"WHQXWWXt7IpdaNbF","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"1DDED2F535008F2B6CFB60D27D6D65E4","time_end":"20161106183225","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 18:36:14][debug] Notifyresult:1
+[2016-11-06 18:36:14][debug] handleresult:1
+[2016-11-06 18:38:33][debug] begin notify
+[2016-11-06 18:38:33][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[x4bqas2mkhxlvp3wtvzskhw649zm5bj9]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110610054515]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[C9C72D86D48B74CA4875FDCA633C2BB2]]></sign>
+<time_end><![CDATA[20161106183435]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068945336938]]></transaction_id>
+</xml>
+[2016-11-06 18:38:33][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183435&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:38:33][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:38:33][debug] api:Array
+[2016-11-06 18:38:33][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"x4bqas2mkhxlvp3wtvzskhw649zm5bj9","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C9C72D86D48B74CA4875FDCA633C2BB2","time_end":"20161106183435","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 18:38:33][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=q275fjfn6s5gn0r99f6kumbjn54aisfy&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:38:33][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:38:34][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=4JoZYJYdfXRhX267&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106183435&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 18:38:34][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 18:38:34][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"4JoZYJYdfXRhX267","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"65D1924D11ABC71D02D8FCCB97952251","time_end":"20161106183435","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 18:38:34][debug] Notifyresult:1
+[2016-11-06 18:38:34][debug] handleresult:1
+[2016-11-06 19:06:17][debug] begin notify
+[2016-11-06 19:06:17][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 19:06:17][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 19:06:17][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 19:06:17][debug] api:Array
+[2016-11-06 19:06:17][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 19:06:17][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=5gwrdpw8m6oe98mcs9ph5xl3o3b2g2u2&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 19:06:17][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 19:08:37][debug] begin notify
+[2016-11-06 19:08:37][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[x4bqas2mkhxlvp3wtvzskhw649zm5bj9]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110610054515]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[C9C72D86D48B74CA4875FDCA633C2BB2]]></sign>
+<time_end><![CDATA[20161106183435]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068945336938]]></transaction_id>
+</xml>
+[2016-11-06 19:08:37][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183435&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 19:08:37][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 19:08:37][debug] api:Array
+[2016-11-06 19:08:37][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"x4bqas2mkhxlvp3wtvzskhw649zm5bj9","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C9C72D86D48B74CA4875FDCA633C2BB2","time_end":"20161106183435","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 19:08:37][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=rhx7vfitrt8l8qqtxcmvxmnpm7wz42n2&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 19:08:37][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 19:36:23][debug] begin notify
+[2016-11-06 19:36:23][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 19:36:23][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 19:36:23][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 19:36:23][debug] api:Array
+[2016-11-06 19:36:23][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 19:36:23][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=cbx0iofyq2qfoqeg7f0fo4olw70aivp3&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 19:36:23][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 19:38:42][debug] begin notify
+[2016-11-06 19:38:42][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[x4bqas2mkhxlvp3wtvzskhw649zm5bj9]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110610054515]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[C9C72D86D48B74CA4875FDCA633C2BB2]]></sign>
+<time_end><![CDATA[20161106183435]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068945336938]]></transaction_id>
+</xml>
+[2016-11-06 19:38:42][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183435&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 19:38:42][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 19:38:42][debug] api:Array
+[2016-11-06 19:38:42][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"x4bqas2mkhxlvp3wtvzskhw649zm5bj9","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C9C72D86D48B74CA4875FDCA633C2BB2","time_end":"20161106183435","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 19:38:42][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=hzxzvvin1gtwct9dgtykhj2pujsrlnhi&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 19:38:42][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:06:31][debug] begin notify
+[2016-11-06 20:06:31][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 20:06:31][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:06:31][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:06:31][debug] api:Array
+[2016-11-06 20:06:31][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 20:06:31][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=66zht3n4eruul7a2bc23rlsebgpcwhi6&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:06:31][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:06:35][debug] begin notify
+[2016-11-06 20:06:35][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 20:06:35][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:06:35][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:06:35][debug] api:Array
+[2016-11-06 20:06:35][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 20:06:35][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=cwmt47c3rqdzfnf78o6x452uu7getls6&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:06:35][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:08:48][debug] begin notify
+[2016-11-06 20:08:49][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[x4bqas2mkhxlvp3wtvzskhw649zm5bj9]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110610054515]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[C9C72D86D48B74CA4875FDCA633C2BB2]]></sign>
+<time_end><![CDATA[20161106183435]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068945336938]]></transaction_id>
+</xml>
+[2016-11-06 20:08:49][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183435&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:08:49][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:08:49][debug] api:Array
+[2016-11-06 20:08:49][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"x4bqas2mkhxlvp3wtvzskhw649zm5bj9","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C9C72D86D48B74CA4875FDCA633C2BB2","time_end":"20161106183435","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 20:08:49][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=ztuy1rvnnszy51bjqeczbyp3ygyf9ijk&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:08:49][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:08:53][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=X11NTVOR1UcWODnX&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106183435&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:08:53][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:08:53][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"X11NTVOR1UcWODnX","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"4578379FE62EBE76215CB0439C19F9B4","time_end":"20161106183435","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 20:08:53][debug] Notifyresult:1
+[2016-11-06 20:08:53][debug] handleresult:1
+[2016-11-06 20:36:41][debug] begin notify
+[2016-11-06 20:36:41][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 20:36:41][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:36:41][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:36:41][debug] api:Array
+[2016-11-06 20:36:41][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 20:36:41][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=tkg1bnrq5ka2s50dl0fawzrl7vb8yofz&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:36:41][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:38:54][debug] begin notify
+[2016-11-06 20:38:54][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[x4bqas2mkhxlvp3wtvzskhw649zm5bj9]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110610054515]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[C9C72D86D48B74CA4875FDCA633C2BB2]]></sign>
+<time_end><![CDATA[20161106183435]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068945336938]]></transaction_id>
+</xml>
+[2016-11-06 20:38:54][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183435&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:38:54][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 20:38:54][debug] api:Array
+[2016-11-06 20:38:54][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"x4bqas2mkhxlvp3wtvzskhw649zm5bj9","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C9C72D86D48B74CA4875FDCA633C2BB2","time_end":"20161106183435","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 20:38:54][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=yg5pgmpmha9e82nra3lnowpf901r3luw&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 20:38:54][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 21:36:48][debug] begin notify
+[2016-11-06 21:36:48][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[w0my20z7cvcc2l63u2otjkvvi6lj798x]]></nonce_str>
+<openid><![CDATA[op3rijgSVUJwpiuvLFcqIY3B7nJE]]></openid>
+<out_trade_no><![CDATA[2016110651985210]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[65F2FC8325D32121C18523859F1CCA90]]></sign>
+<time_end><![CDATA[20161106183225]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4008442001201611068945154729]]></transaction_id>
+</xml>
+[2016-11-06 21:36:48][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=w0my20z7cvcc2l63u2otjkvvi6lj798x&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183225&total_fee=1&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 21:36:48][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 21:36:48][debug] api:Array
+[2016-11-06 21:36:48][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"w0my20z7cvcc2l63u2otjkvvi6lj798x","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","sign":"65F2FC8325D32121C18523859F1CCA90","time_end":"20161106183225","total_fee":"1","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 21:36:48][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=0zh7z03vf0t99vf2gd4zajh2i32b5csh&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 21:36:48][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 21:36:51][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=rcTmzESsQ4bunrMm&openid=op3rijgSVUJwpiuvLFcqIY3B7nJE&out_trade_no=2016110651985210&result_code=SUCCESS&return_code=SUCCESS&return_msg=OK&time_end=20161106183225&total_fee=1&trade_state=SUCCESS&trade_type=JSAPI&transaction_id=4008442001201611068945154729&key=bogleunionL18899765853bogleunion
+[2016-11-06 21:36:51][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 21:36:51][debug] query:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"rcTmzESsQ4bunrMm","openid":"op3rijgSVUJwpiuvLFcqIY3B7nJE","out_trade_no":"2016110651985210","result_code":"SUCCESS","return_code":"SUCCESS","return_msg":"OK","sign":"710B2450D139DD5D41D159ED4838B6E4","time_end":"20161106183225","total_fee":"1","trade_state":"SUCCESS","trade_type":"JSAPI","transaction_id":"4008442001201611068945154729"}
+[2016-11-06 21:36:51][debug] Notifyresult:1
+[2016-11-06 21:36:51][debug] handleresult:1
+[2016-11-06 21:39:00][debug] begin notify
+[2016-11-06 21:39:00][debug] xml:<xml><appid><![CDATA[wx245ceeacd691162a]]></appid>
+<attach><![CDATA[1]]></attach>
+<bank_type><![CDATA[CFT]]></bank_type>
+<cash_fee><![CDATA[1]]></cash_fee>
+<fee_type><![CDATA[CNY]]></fee_type>
+<is_subscribe><![CDATA[Y]]></is_subscribe>
+<mch_id><![CDATA[1262948001]]></mch_id>
+<nonce_str><![CDATA[x4bqas2mkhxlvp3wtvzskhw649zm5bj9]]></nonce_str>
+<openid><![CDATA[op3rijg24AwDZpECcgueVyYBDHXQ]]></openid>
+<out_trade_no><![CDATA[2016110610054515]]></out_trade_no>
+<result_code><![CDATA[SUCCESS]]></result_code>
+<return_code><![CDATA[SUCCESS]]></return_code>
+<sign><![CDATA[C9C72D86D48B74CA4875FDCA633C2BB2]]></sign>
+<time_end><![CDATA[20161106183435]]></time_end>
+<total_fee>1</total_fee>
+<trade_type><![CDATA[JSAPI]]></trade_type>
+<transaction_id><![CDATA[4006802001201611068945336938]]></transaction_id>
+</xml>
+[2016-11-06 21:39:00][debug] string:appid=wx245ceeacd691162a&attach=1&bank_type=CFT&cash_fee=1&fee_type=CNY&is_subscribe=Y&mch_id=1262948001&nonce_str=x4bqas2mkhxlvp3wtvzskhw649zm5bj9&openid=op3rijg24AwDZpECcgueVyYBDHXQ&out_trade_no=2016110610054515&result_code=SUCCESS&return_code=SUCCESS&time_end=20161106183435&total_fee=1&trade_type=JSAPI&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 21:39:00][debug] key:bogleunionL18899765853bogleunion
+[2016-11-06 21:39:00][debug] api:Array
+[2016-11-06 21:39:00][debug] call back:{"appid":"wx245ceeacd691162a","attach":"1","bank_type":"CFT","cash_fee":"1","fee_type":"CNY","is_subscribe":"Y","mch_id":"1262948001","nonce_str":"x4bqas2mkhxlvp3wtvzskhw649zm5bj9","openid":"op3rijg24AwDZpECcgueVyYBDHXQ","out_trade_no":"2016110610054515","result_code":"SUCCESS","return_code":"SUCCESS","sign":"C9C72D86D48B74CA4875FDCA633C2BB2","time_end":"20161106183435","total_fee":"1","trade_type":"JSAPI","transaction_id":"4006802001201611068945336938"}
+[2016-11-06 21:39:00][debug] string:appid=wx245ceeacd691162a&mch_id=1262948001&nonce_str=ccbk1bv6kjc9150009cd9a4mxu7uiyo4&transaction_id=4006802001201611068945336938&key=bogleunionL18899765853bogleunion
+[2016-11-06 21:39:00][debug] key:bogleunionL18899765853bogleunion
